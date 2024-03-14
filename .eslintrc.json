@@ -6,7 +6,8 @@
     "extends": [
         "standard-with-typescript",
         "plugin:react/recommended",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "plugin:@next/next/recommended"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -14,7 +15,8 @@
     },
     "plugins": [
         "react",
-        "prettier"
+        "prettier",
+        "next"
     ],
     "rules": {
         "prettier/prettier": ["error"],
