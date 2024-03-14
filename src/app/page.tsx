@@ -2,13 +2,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Container from '@mui/material/Container';
 import * as d3 from 'd3';
-import {
-  type SelectChangeEvent,
-} from '@mui/material';
+import { type SelectChangeEvent } from '@mui/material';
 import { IData, IProcessedData, IStop } from '@/app/types';
-import {
-  routes,
-} from './constants';
+import { routes } from './constants';
 import { OVERLAY_STYLES } from './constants';
 import SliderControl from '@/components/SliderControl';
 import StationsCheckbox from '@/components/StationsCheckbox';
@@ -24,7 +20,9 @@ const TrainScheduleChart: React.FC = () => {
   const [loading, setLoading] = useState<boolean>(false); // Tracks data loading status
   const [selectedRoutes, setSelectedRoutes] = useState<string[]>(['S1']); // Selected routes for filtering
   const [stations, setStations] = useState<boolean>(true); // Toggle to show/hide stations on the chart
-  const [processedData, setProcessedData] = useState<IProcessedData[] | null>(null);
+  const [processedData, setProcessedData] = useState<IProcessedData[] | null>(
+    null
+  );
 
   const now = new Date();
   const currentHour = now.getHours();
@@ -40,7 +38,6 @@ const TrainScheduleChart: React.FC = () => {
     timeRange
   );
 
-  
   const handleSliderChangeCommitted = (
     event: Event | React.SyntheticEvent<Element, Event>,
     newValue: number | number[]
@@ -158,7 +155,7 @@ const TrainScheduleChart: React.FC = () => {
    *                                        with its stops ready for visualization.
    */
   // const createChart = (tripsData: IProcessedData[]): void => {
-    
+
   // };
 
   return (
@@ -170,12 +167,14 @@ const TrainScheduleChart: React.FC = () => {
           onChange={(event: SelectChangeEvent<string[]>) => {
             const value = event.target.value;
             // On autofill we get a stringified value.
-            setSelectedRoutes(typeof value === 'string' ? value.split(',') : value);
+            setSelectedRoutes(
+              typeof value === 'string' ? value.split(',') : value
+            );
           }}
         />
         <StationsCheckbox
           checked={stations}
-          onChange={(e) => setStations(e.target.checked)}
+          onChange={e => setStations(e.target.checked)}
         />
         <SliderControl
           timeRange={timeRange}

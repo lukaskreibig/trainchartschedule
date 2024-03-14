@@ -4,7 +4,10 @@ import { Slider, Box } from '@mui/material';
 interface TimeRangeSliderProps {
   timeRange: number[];
   onTimeRangeChange: (event: Event, newValue: number | number[]) => void;
-  onTimeRangeChangeCommitted: (event: Event | React.SyntheticEvent<Element, Event>, newValue: number | number[]) => void;
+  onTimeRangeChangeCommitted: (
+    event: Event | React.SyntheticEvent<Element, Event>,
+    newValue: number | number[]
+  ) => void;
   marks: { value: number; label: string }[];
 }
 
@@ -12,7 +15,7 @@ const TimeRangeSlider: React.FC<TimeRangeSliderProps> = ({
   timeRange,
   onTimeRangeChange,
   onTimeRangeChangeCommitted,
-  marks
+  marks,
 }) => {
   return (
     <Box sx={{ width: '600px', alignSelf: 'center' }}>

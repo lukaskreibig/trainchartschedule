@@ -1,34 +1,55 @@
-// Chart.tsx
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import { ID3Point, IProcessedData } from '@/app/types';
 import { CHART_HEIGHT, CHART_MARGINS, CHART_WIDTH } from '@/app/constants';
 import { Box } from '@mui/material';
 
+ /**
+ * ChartProps defines the properties expected by the Chart component.
+ * @prop {IProcessedData[] | null} processedData - Array of processed data objects or null.
+ * @prop {boolean} stationsVisible - Determines the visibility of stations on the chart.
+ */
 interface ChartProps {
   processedData: IProcessedData[] | null;
   stationsVisible: boolean;
 }
 
-export const Chart: React.FC<ChartProps> = ({ processedData, stationsVisible }) => {
+/**
+ * The Chart component renders a D3 chart visualization based on the processed data provided.
+ * It visualizes train schedules where each trip is represented as a line through its stops.
+ * Stations can be toggled on or off.
+ *
+ * @component
+ */
+export const Chart: React.FC<ChartProps> = ({
+  processedData,
+  stationsVisible,
+}) => {
+  // useRef hook to reference the SVG element where the chart will be drawn.
+  const svgRef = useRef<SVGSVGElement>(null);
 
-const svgRef = useRef<SVGSVGElement>(null);
-
-useEffect(() => {
+  //useEffect hook to redraw the chart whenever the processed data or the station visibility changes.
+  useEffect(() => {
     if (!processedData) {
-      return; // Do not attempt to draw the chart if data is not available
+      // Early return if there is no data to render.
+      return;
     }
 
-    // Call createChart within useEffect so it runs when processedData or stationsVisible changes
+    // Invokes the chart drawing function.
     createChart();
-  }, [processedData, stationsVisible]); // Dependency array ensures effect runs when these variables change
+  }, [processedData, stationsVisible]);
 
+  /**
+   * Creates and renders the D3 chart using SVG.
+   * This function is responsible for setting up the chart's scales, axes, and lines
+   * based on the processed data. It also handles the optional display of stations and
+   * the setup of a tooltip for more detailed information upon hover.
+   */
 
-const createChart = () => {
-    
-    const margin = CHART_MARGINS
-    const width = CHART_WIDTH
-    const height = CHART_HEIGHT
+  const createChart = () => {
+    const margin = CHART_MARGINS;
+    const width = CHART_WIDTH;
+    const height = CHART_HEIGHT;
 
     // Clear previous SVG content to prevent duplication.
     d3.select(svgRef.current).selectAll('*').remove();
@@ -143,7 +164,6 @@ const createChart = () => {
       .y(d => yScale(d.time!)) // ID3Point includes time, so this is valid
       .curve(d3.curveLinear);
 
-
     processedData!.forEach(trip => {
       svg
         .append('path')
@@ -152,7 +172,7 @@ const createChart = () => {
         .attr('stroke', colorScale(trip.route_id))
         .attr('stroke-width', 1)
         .attr('d', lineGenerator);
-    })
+    });
 
     // Format function for time
     const formatTime = d3.timeFormat('%H:%M');
@@ -182,21 +202,25 @@ const createChart = () => {
         .attr('d', lineGenerator);
     });
 
-    stationsVisible ? (
-    processedData!.forEach(trip => {
-      trip.stops.forEach(stop => {
-        // const circles = svg.selectAll('.stop-circle')
-        svg
-          .append('circle')
-          // .attr('class', 'stop-circle')
-          .attr('cx', () => xScale(stop.stop_name!)! + xScale.bandwidth() / 2)
-          .attr('cy', () => yScale(stop.originalArrivalTime))
-          .attr('r', 3)
-          .attr('fill', 'rgba(0,0,0,0.5)') // Use rgba for transparency
-          .attr('stroke', 'white') // White color around the dot
-          .attr('stroke-width', '2px'); // Width of the white stroke to create the space
-      });
-    })) : null
+    stationsVisible
+      ? processedData!.forEach(trip => {
+          trip.stops.forEach(stop => {
+            // const circles = svg.selectAll('.stop-circle')
+            svg
+              .append('circle')
+              // .attr('class', 'stop-circle')
+              .attr(
+                'cx',
+                () => xScale(stop.stop_name!)! + xScale.bandwidth() / 2
+              )
+              .attr('cy', () => yScale(stop.originalArrivalTime))
+              .attr('r', 3)
+              .attr('fill', 'rgba(0,0,0,0.5)') // Use rgba for transparency
+              .attr('stroke', 'white') // White color around the dot
+              .attr('stroke-width', '2px'); // Width of the white stroke to create the space
+          });
+        })
+      : null;
 
     // Tooltip setup
     const tooltip = svg
@@ -272,18 +296,20 @@ const createChart = () => {
           `translate(${d.x - box.width / 2},${d.y - box.height + 75})`
         );
       });
-    }
+  };
 
-  return <Box
-  sx={{
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  }}
->
-  <svg ref={svgRef}></svg>
-</Box>;
+  return (
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
+      <svg ref={svgRef}></svg>
+    </Box>
+  );
 };
 
 export default Chart;

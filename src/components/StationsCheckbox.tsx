@@ -6,7 +6,10 @@ interface StationsCheckboxProps {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-const StationsCheckbox: React.FC<StationsCheckboxProps> = ({ checked, onChange }) => {
+const StationsCheckbox: React.FC<StationsCheckboxProps> = ({
+  checked,
+  onChange,
+}) => {
   return (
     <FormControlLabel
       sx={{
