@@ -1,6 +1,13 @@
 import React from 'react';
 import { Slider, Box } from '@mui/material';
 
+/**
+ * Defines the props for the TimeRangeSlider component.
+ * @param {number[]} timeRange - The current selected time range.
+ * @param {(event: Event, newValue: number | number[]) => void} onTimeRangeChange - Callback function for slider value change.
+ * @param {(event: Event | React.SyntheticEvent<Element, Event>, newValue: number | number[]) => void} onTimeRangeChangeCommitted - Callback for when the slider change is committed (e.g., on mouse-up).
+ * @param {{ value: number; label: string }[]} marks - The marks on the slider, each with a specified value and label.
+ */
 interface TimeRangeSliderProps {
   timeRange: number[];
   onTimeRangeChange: (event: Event, newValue: number | number[]) => void;
@@ -11,6 +18,11 @@ interface TimeRangeSliderProps {
   marks: { value: number; label: string }[];
 }
 
+/**
+ * TimeRangeSlider component for selecting a time range using a slider.
+ * Utilizes Material-UI's Slider component to offer an interactive time range selection.
+ * @param {TimeRangeSliderProps} props - Component props.
+ */
 const TimeRangeSlider: React.FC<TimeRangeSliderProps> = ({
   timeRange,
   onTimeRangeChange,
