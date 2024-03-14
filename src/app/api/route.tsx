@@ -14,7 +14,6 @@ const tmpDir = '/tmp';
 const db = new Database('/tmp/gtfs-data.db', { verbose: console.log });
 db.pragma('journal_mode = WAL');
 
-
 const config = {
   sqlitePath: 'tmp/gtfs-data.db',
   agencies: [
