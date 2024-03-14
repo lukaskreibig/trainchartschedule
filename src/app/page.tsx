@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 'use client';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { CSSProperties, useEffect, useRef, useState } from 'react';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import * as d3 from 'd3';
@@ -200,7 +200,7 @@ const TrainScheduleChart: React.FC = () => {
   );
 
   // Styles for the overlay containing the filters and controls
-  const overlayStyles = {
+  const overlayStyles: CSSProperties = {
     position: 'fixed',
     bottom: '20px', // 20px from the bottom of the viewport
     left: '50%', // Start at the half width of the viewport
@@ -225,10 +225,10 @@ const TrainScheduleChart: React.FC = () => {
    * @param newValue The new value of the time range slider.
    */
   const handleSliderChangeCommitted = (
-    event: React.ChangeEvent<HTMLInputElement>,
-    newValue: number[]
+    event: Event | React.SyntheticEvent<Element, Event>,
+    newValue: number | number[]
   ): void => {
-    setTimeRange(newValue);
+    setTimeRange(newValue as number[]);
   };
 
   /**
