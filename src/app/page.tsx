@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 'use client';
 import React, { CSSProperties, useEffect, useRef, useState } from 'react';
 import Container from '@mui/material/Container';
@@ -279,7 +278,7 @@ const TrainScheduleChart: React.FC = () => {
 
   // Fetch GTFS data when component mounts or when filters change
   useEffect(() => {
-    void fetchGTFSData();
+    fetchGTFSData();
   }, [route, stations, timeRange]);
 
   /**
@@ -402,7 +401,6 @@ const TrainScheduleChart: React.FC = () => {
     const xGrid = d3
       .axisTop(xScale)
       .tickSize(-height) // Use the negative height to extend the lines downward
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
       // @ts-expect-error
       .tickFormat('')
       .tickPadding(10)
@@ -413,7 +411,6 @@ const TrainScheduleChart: React.FC = () => {
       .append('g')
       .attr('class', 'x-grid')
       .attr('transform', `translate(0,0)`) // Align with the top axis
-      // eslint-disable-next-line @typescript-eslint/no-unsafe-call
       // @ts-expect-error
       .call(xGrid);
 

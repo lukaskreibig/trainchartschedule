@@ -7,8 +7,10 @@ import {
   importGtfs,
 } from 'gtfs';
 import { NextResponse } from 'next/server';
+import Database from 'better-sqlite3';
+import { NextApiRequest, NextApiResponse } from 'next';
 
-const db = require('better-sqlite3')('gtfs-data.db', { verbose: console.log });
+const db = new Database('gtfs-data.db', { verbose: console.log });
 db.pragma('journal_mode = WAL');
 
 const config = {
@@ -20,7 +22,7 @@ const config = {
   ],
 };
 
-export async function POST() {
+export async function POST(req: NextApiRequest, res: NextApiResponse) {
   await importGtfs(config);
 
   // const routes = getRoutes();
