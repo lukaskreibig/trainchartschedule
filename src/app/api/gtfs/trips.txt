@@ -1,0 +1,2057 @@
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id,block_id,shape_id,trip_type
+1,000001,1,Backnang,,,1,,1
+1,000002,2,Backnang,,,1,,1
+1,000003,3,Backnang,,,2,,1
+1,000002,4,Stuttgart-Vaihingen,,,3,,1
+1,000001,5,Stuttgart-Vaihingen,,,3,,1
+1,000003,6,Winnenden,,,4,,1
+1,000001,7,Backnang,,,5,,1
+1,000002,8,Backnang,,,5,,1
+1,000003,9,Backnang,,,6,,1
+1,000002,10,Stuttgart-Vaihingen,,,7,,1
+1,000001,11,Stuttgart-Vaihingen,,,7,,1
+1,000003,12,Winnenden,,,8,,1
+1,000003,13,Backnang,,,9,,1
+1,000001,14,Backnang,,,10,,1
+1,000002,15,Backnang,,,10,,1
+1,000002,16,Stuttgart-Vaihingen,,,11,,1
+1,000001,17,Stuttgart-Vaihingen,,,11,,1
+1,000003,18,Winnenden,,,12,,1
+1,000003,19,Backnang,,,13,,1
+1,000001,20,Backnang,,,14,,1
+1,000002,21,Backnang,,,14,,1
+1,000002,22,Stuttgart-Vaihingen,,,15,,1
+1,000001,23,Stuttgart-Vaihingen,,,15,,1
+1,000003,24,Winnenden,,,16,,1
+1,000003,25,Backnang,,,17,,1
+1,000001,26,Backnang,,,18,,1
+1,000002,27,Backnang,,,18,,1
+1,000002,28,Stuttgart-Vaihingen,,,19,,1
+1,000001,29,Stuttgart-Vaihingen,,,19,,1
+1,000003,30,Winnenden,,,20,,1
+1,000001,31,Backnang,,,21,,1
+1,000002,32,Backnang,,,21,,1
+1,000003,33,Backnang,,,22,,1
+1,000004,34,Stuttgart-Vaihingen,,,23,,1
+1,000005,35,Stuttgart-Vaihingen,,,23,,1
+1,000003,36,Winnenden,,,24,,1
+1,000001,37,Backnang,,,25,,1
+1,000002,38,Backnang,,,25,,1
+1,000003,39,Backnang,,,26,,1
+1,000006,40,Stuttgart-Vaihingen,,,27,,1
+1,000007,41,Stuttgart-Vaihingen,,,27,,1
+1,000003,42,Winnenden,,,28,,1
+1,000001,43,Backnang,,,29,,1
+1,000002,44,Backnang,,,29,,1
+1,000003,45,Backnang,,,30,,1
+1,000006,46,Stuttgart-Vaihingen,,,31,,1
+1,000007,47,Stuttgart-Vaihingen,,,31,,1
+1,000003,48,Winnenden,,,32,,1
+1,000003,49,Backnang,,,33,,1
+1,000005,50,Backnang,,,34,,1
+1,000004,51,Backnang,,,34,,1
+1,000006,52,Stuttgart-Vaihingen,,,35,,1
+1,000007,53,Stuttgart-Vaihingen,,,35,,1
+1,000003,54,Winnenden,,,36,,1
+1,000001,55,Backnang,,,37,,1
+1,000002,56,Backnang,,,37,,1
+1,000003,57,Backnang,,,38,,1
+1,000002,58,Stuttgart-Vaihingen,,,39,,1
+1,000001,59,Stuttgart-Vaihingen,,,39,,1
+1,000003,60,Winnenden,,,40,,1
+1,000001,61,Backnang,,,41,,1
+1,000002,62,Backnang,,,41,,1
+1,000003,63,Backnang,,,42,,1
+1,000002,64,Stuttgart-Vaihingen,,,43,,1
+1,000001,65,Stuttgart-Vaihingen,,,43,,1
+1,000003,66,Winnenden,,,44,,1
+1,000001,67,Backnang,,,45,,1
+1,000002,68,Backnang,,,45,,1
+1,000003,69,Backnang,,,46,,1
+1,000002,70,Stuttgart-Vaihingen,,,47,,1
+1,000001,71,Stuttgart-Vaihingen,,,47,,1
+1,000003,72,Winnenden,,,48,,1
+1,000003,73,Backnang,,,49,,1
+1,000001,74,Backnang,,,50,,1
+1,000002,75,Backnang,,,50,,1
+1,000002,76,Stuttgart-Vaihingen,,,51,,1
+1,000001,77,Stuttgart-Vaihingen,,,51,,1
+1,000003,78,Winnenden,,,52,,1
+1,000003,79,Backnang,,,53,,1
+1,000001,80,Backnang,,,54,,1
+1,000002,81,Backnang,,,54,,1
+1,000002,82,Stuttgart-Vaihingen,,,55,,1
+1,000001,83,Stuttgart-Vaihingen,,,55,,1
+1,000003,84,Winnenden,,,56,,1
+1,000003,85,Backnang,,,57,,1
+1,000001,86,Backnang,,,58,,1
+1,000002,87,Backnang,,,58,,1
+1,000002,88,Stuttgart-Vaihingen,,,59,,1
+1,000001,89,Stuttgart-Vaihingen,,,59,,1
+1,000003,90,Winnenden,,,60,,1
+1,000001,91,Backnang,,,61,,1
+1,000002,92,Backnang,,,61,,1
+1,000003,93,Backnang,,,62,,1
+1,000002,94,Stuttgart-Vaihingen,,,63,,1
+1,000001,95,Stuttgart-Vaihingen,,,63,,1
+1,000003,96,Winnenden,,,64,,1
+1,000001,97,Backnang,,,65,,1
+1,000002,98,Backnang,,,65,,1
+1,000003,99,Backnang,,,66,,1
+1,000006,100,Stuttgart-Vaihingen,,,67,,1
+1,000007,101,Stuttgart-Vaihingen,,,67,,1
+1,000003,102,Winnenden,,,68,,1
+1,000001,103,Backnang,,,69,,1
+1,000002,104,Backnang,,,69,,1
+1,000003,105,Backnang,,,70,,1
+1,000008,106,Stuttgart-Vaihingen,,,71,,1
+1,000009,107,Stuttgart-Vaihingen,,,71,,1
+1,000003,108,Winnenden,,,72,,1
+1,000001,109,Backnang,,,73,,1
+1,000002,110,Backnang,,,73,,1
+1,000003,111,Backnang,,,74,,1
+1,000008,112,Stuttgart-Vaihingen,,,75,,1
+1,000009,113,Stuttgart-Vaihingen,,,75,,1
+1,000003,114,Winnenden,,,76,,1
+1,000003,115,Backnang,,,77,,1
+1,000007,116,Backnang,,,78,,1
+1,000006,117,Backnang,,,78,,1
+1,000002,118,Stuttgart-Vaihingen,,,79,,1
+1,000001,119,Stuttgart-Vaihingen,,,79,,1
+1,000003,120,Winnenden,,,80,,1
+1,000003,121,Backnang,,,81,,1
+1,000009,122,Backnang,,,82,,1
+1,000008,123,Backnang,,,82,,1
+1,000002,124,Stuttgart-Vaihingen,,,83,,1
+1,000001,125,Stuttgart-Vaihingen,,,83,,1
+1,000003,126,Winnenden,,,84,,1
+1,000003,127,Backnang,,,85,,1
+1,000009,128,Backnang,,,86,,1
+1,000008,129,Backnang,,,86,,1
+1,000002,130,Stuttgart-Vaihingen,,,87,,1
+1,000001,131,Stuttgart-Vaihingen,,,87,,1
+1,000003,132,Winnenden,,,88,,1
+1,000001,133,Backnang,,,89,,1
+1,000002,134,Backnang,,,89,,1
+1,000003,135,Backnang,,,90,,1
+1,000002,136,Stuttgart-Vaihingen,,,91,,1
+1,000001,137,Stuttgart-Vaihingen,,,91,,1
+1,000003,138,Winnenden,,,92,,1
+1,000001,139,Backnang,,,93,,1
+1,000002,140,Backnang,,,93,,1
+1,000003,141,Backnang,,,94,,1
+1,000002,142,Stuttgart-Vaihingen,,,95,,1
+1,000001,143,Stuttgart-Vaihingen,,,95,,1
+1,000003,144,Winnenden,,,96,,1
+1,000001,145,Backnang,,,97,,1
+1,000002,146,Backnang,,,97,,1
+1,000003,147,Backnang,,,98,,1
+1,000002,148,Stuttgart-Vaihingen,,,99,,1
+1,000001,149,Stuttgart-Vaihingen,,,99,,1
+1,000003,150,Winnenden,,,100,,1
+1,000003,151,Backnang,,,101,,1
+1,000001,152,Backnang,,,102,,1
+1,000002,153,Backnang,,,102,,1
+2,000001,154,Marbach(Neckar),,,103,,1
+2,000001,155,Stuttgart Schwabstr.,,,104,,1
+2,000001,156,Marbach(Neckar),,,105,,1
+2,000001,157,Stuttgart Schwabstr.,,,106,,1
+2,000001,158,Marbach(Neckar),,,107,,1
+2,000001,159,Stuttgart Schwabstr.,,,108,,1
+2,000001,160,Marbach(Neckar),,,109,,1
+2,000001,161,Stuttgart Schwabstr.,,,110,,1
+2,000001,162,Marbach(Neckar),,,111,,1
+2,000001,163,Stuttgart Schwabstr.,,,112,,1
+2,000001,164,Marbach(Neckar),,,113,,1
+2,000001,165,Stuttgart Schwabstr.,,,114,,1
+2,000001,166,Marbach(Neckar),,,115,,1
+2,000001,167,Stuttgart Schwabstr.,,,116,,1
+2,000001,168,Marbach(Neckar),,,117,,1
+2,000001,169,Stuttgart Schwabstr.,,,118,,1
+2,000001,170,Marbach(Neckar),,,119,,1
+2,000001,171,Stuttgart Schwabstr.,,,120,,1
+2,000001,172,Marbach(Neckar),,,121,,1
+2,000001,173,Stuttgart Schwabstr.,,,122,,1
+2,000001,174,Marbach(Neckar),,,123,,1
+2,000001,175,Stuttgart Schwabstr.,,,124,,1
+2,000001,176,Marbach(Neckar),,,125,,1
+2,000001,177,Stuttgart Schwabstr.,,,126,,1
+2,000001,178,Marbach(Neckar),,,127,,1
+2,000001,179,Stuttgart Schwabstr.,,,128,,1
+2,000001,180,Marbach(Neckar),,,129,,1
+2,000001,181,Stuttgart Schwabstr.,,,130,,1
+2,000001,182,Marbach(Neckar),,,131,,1
+2,000001,183,Stuttgart Schwabstr.,,,132,,1
+2,000001,184,Marbach(Neckar),,,133,,1
+2,000001,185,Stuttgart Schwabstr.,,,134,,1
+2,000001,186,Marbach(Neckar),,,135,,1
+2,000001,187,Stuttgart Schwabstr.,,,136,,1
+2,000001,188,Marbach(Neckar),,,137,,1
+2,000001,189,Stuttgart Schwabstr.,,,138,,1
+2,000001,190,Marbach(Neckar),,,139,,1
+2,000001,191,Stuttgart Schwabstr.,,,140,,1
+2,000001,192,Marbach(Neckar),,,141,,1
+2,000001,193,Stuttgart Schwabstr.,,,142,,1
+2,000001,194,Marbach(Neckar),,,143,,1
+2,000001,195,Stuttgart Schwabstr.,,,144,,1
+2,000001,196,Marbach(Neckar),,,145,,1
+2,000001,197,Stuttgart Schwabstr.,,,146,,1
+2,000001,198,Marbach(Neckar),,,147,,1
+2,000001,199,Stuttgart Schwabstr.,,,148,,1
+2,000001,200,Marbach(Neckar),,,149,,1
+2,000001,201,Stuttgart Schwabstr.,,,150,,1
+2,000001,202,Marbach(Neckar),,,151,,1
+2,000001,203,Marbach(Neckar),,,152,,1
+2,000001,204,Marbach(Neckar),,,153,,1
+3,000001,205,Bietigheim-Bissingen,,,154,,1
+3,000001,206,Stuttgart Schwabstr.,,,155,,1
+3,000001,207,Bietigheim-Bissingen,,,156,,1
+3,000001,208,Stuttgart Schwabstr.,,,157,,1
+3,000001,209,Bietigheim-Bissingen,,,158,,1
+3,000001,210,Stuttgart Schwabstr.,,,159,,1
+3,000001,211,Bietigheim-Bissingen,,,160,,1
+3,000001,212,Stuttgart Schwabstr.,,,161,,1
+3,000001,213,Bietigheim-Bissingen,,,162,,1
+3,000001,214,Stuttgart Schwabstr.,,,163,,1
+3,000001,215,Bietigheim-Bissingen,,,164,,1
+3,000001,216,Stuttgart Schwabstr.,,,165,,1
+3,000001,217,Bietigheim-Bissingen,,,166,,1
+3,000001,218,Stuttgart Schwabstr.,,,167,,1
+3,000001,219,Bietigheim-Bissingen,,,168,,1
+3,000001,220,Stuttgart Schwabstr.,,,169,,1
+3,000001,221,Bietigheim-Bissingen,,,170,,1
+3,000001,222,Stuttgart Schwabstr.,,,171,,1
+3,000001,223,Bietigheim-Bissingen,,,172,,1
+3,000001,224,Bietigheim-Bissingen,,,173,,1
+3,000001,225,Stuttgart Schwabstr.,,,174,,1
+3,000001,226,Bietigheim-Bissingen,,,175,,1
+3,000001,227,Stuttgart Schwabstr.,,,176,,1
+3,000001,228,Bietigheim-Bissingen,,,177,,1
+3,000001,229,Stuttgart Schwabstr.,,,178,,1
+3,000001,230,Bietigheim-Bissingen,,,179,,1
+3,000001,231,Stuttgart Schwabstr.,,,180,,1
+3,000001,232,Bietigheim-Bissingen,,,181,,1
+3,000001,233,Stuttgart Schwabstr.,,,182,,1
+3,000001,234,Bietigheim-Bissingen,,,183,,1
+3,000001,235,Stuttgart Schwabstr.,,,184,,1
+3,000001,236,Bietigheim-Bissingen,,,185,,1
+3,000001,237,Stuttgart Schwabstr.,,,186,,1
+3,000001,238,Bietigheim-Bissingen,,,187,,1
+3,000001,239,Stuttgart Schwabstr.,,,188,,1
+3,000001,240,Bietigheim-Bissingen,,,189,,1
+3,000001,241,Stuttgart Schwabstr.,,,190,,1
+3,000001,242,Bietigheim-Bissingen,,,191,,1
+3,000001,243,Stuttgart Schwabstr.,,,192,,1
+3,000001,244,Bietigheim-Bissingen,,,193,,1
+3,000001,245,Stuttgart Schwabstr.,,,194,,1
+3,000001,246,Bietigheim-Bissingen,,,195,,1
+3,000001,247,Stuttgart Schwabstr.,,,196,,1
+3,000001,248,Bietigheim-Bissingen,,,197,,1
+3,000001,249,Stuttgart Schwabstr.,,,198,,1
+3,000001,250,Bietigheim-Bissingen,,,199,,1
+3,000001,251,Stuttgart Schwabstr.,,,200,,1
+3,000001,252,Bietigheim-Bissingen,,,201,,1
+3,000001,253,Stuttgart Schwabstr.,,,202,,1
+3,000001,254,Bietigheim-Bissingen,,,203,,1
+3,000001,255,Stuttgart Schwabstr.,,,204,,1
+3,000001,256,Bietigheim-Bissingen,,,205,,1
+4,000010,257,Weil der Stadt,,,206,,1
+4,000010,258,Stuttgart Hbf,,,207,,1
+4,000010,259,Weil der Stadt,,,208,,1
+4,000010,260,Stuttgart Hbf,,,209,,1
+4,000010,261,Weil der Stadt,,,210,,1
+4,000010,262,Stuttgart Hbf,,,211,,1
+4,000011,263,Weil der Stadt,,,212,,1
+4,000010,264,Stuttgart Hbf,,,213,,1
+4,000011,265,Weil der Stadt,,,214,,1
+4,000010,266,Stuttgart Hbf,,,215,,1
+1,000010,267,Stuttgart-Vaihingen,,,216,,1
+4,000011,268,Stuttgart Hbf,,,217,,1
+1,000010,269,Stuttgart-Vaihingen,,,218,,1
+1,000010,270,Stuttgart Flughafen/Messe,,,219,,1
+1,000010,271,Stuttgart-Vaihingen,,,220,,1
+1,000010,272,Stuttgart Flughafen/Messe,,,221,,1
+1,000010,273,Stuttgart-Vaihingen,,,222,,1
+5,000010,274,Kirchheim(Teck),,,223,,1
+5,000010,275,Herrenberg,,,224,,1
+5,000010,276,Kirchheim(Teck),,,225,,1
+5,000010,277,Herrenberg,,,226,,1
+5,000010,278,Kirchheim(Teck),,,227,,1
+5,000010,279,Herrenberg,,,228,,1
+5,000010,280,Kirchheim(Teck),,,229,,1
+5,000010,281,Herrenberg,,,230,,1
+5,000011,282,Kirchheim(Teck),,,231,,1
+5,000010,283,Herrenberg,,,232,,1
+6,000010,284,Schorndorf,,,233,,1
+5,000011,285,Herrenberg,,,234,,1
+6,000010,286,Schorndorf,,,235,,1
+6,000010,287,Filderstadt,,,236,,1
+6,000010,288,Schorndorf,,,237,,1
+6,000010,289,Filderstadt,,,238,,1
+6,000010,290,Schorndorf,,,239,,1
+6,000010,291,Filderstadt,,,240,,1
+6,000011,292,Schorndorf,,,241,,1
+6,000010,293,Filderstadt,,,242,,1
+6,000011,294,Schorndorf,,,243,,1
+6,000010,295,Filderstadt,,,244,,1
+1,000010,296,Backnang,,,245,,1
+1,000012,297,Backnang,,,245,,1
+1,000089,298,Backnang,,,246,,1
+6,000011,299,Filderstadt,,,247,,1
+1,000089,300,Backnang,,,248,,1
+1,000010,301,Backnang,,,249,,1
+1,000012,302,Backnang,,,249,,1
+1,000012,303,Stuttgart Hbf,,,250,,1
+1,000010,304,Stuttgart Hbf,,,250,,1
+1,000089,305,Winnenden,,,251,,1
+1,000451,306,Backnang,,,252,,1
+1,000010,307,Backnang,,,253,,1
+1,000012,308,Backnang,,,253,,1
+1,000012,309,Stuttgart Hbf,,,254,,1
+1,000010,310,Stuttgart Hbf,,,254,,1
+1,000089,311,Winnenden,,,255,,1
+1,000014,312,Backnang,,,256,,1
+1,000011,313,Backnang,,,257,,1
+1,000015,314,Backnang,,,257,,1
+1,000012,315,Stuttgart Hbf,,,258,,1
+1,000010,316,Stuttgart Hbf,,,258,,1
+1,000089,317,Winnenden,,,259,,1
+1,000011,318,Backnang,,,260,,1
+1,000015,319,Backnang,,,260,,1
+1,000450,320,Backnang,,,261,,1
+1,000012,321,Stuttgart Hbf,,,262,,1
+1,000010,322,Stuttgart Hbf,,,262,,1
+1,000089,323,Winnenden,,,263,,1
+1,000011,324,Backnang,,,264,,1
+1,000015,325,Backnang,,,264,,1
+1,000450,326,Backnang,,,265,,1
+2,000010,327,Stuttgart Hbf,,,266,,1
+2,000010,328,Marbach(Neckar),,,267,,1
+2,000016,329,Stuttgart Hbf,,,268,,1
+2,000010,330,Stuttgart Hbf,,,268,,1
+2,000010,331,Backnang,,,269,,1
+2,000016,332,Backnang,,,269,,1
+2,000010,333,Stuttgart Hbf,,,270,,1
+2,000010,334,Marbach(Neckar),,,271,,1
+2,000016,335,Stuttgart Hbf,,,272,,1
+2,000010,336,Stuttgart Hbf,,,272,,1
+2,000011,337,Backnang,,,273,,1
+2,000017,338,Backnang,,,273,,1
+2,000010,339,Stuttgart Hbf,,,274,,1
+2,000011,340,Marbach(Neckar),,,275,,1
+3,000010,341,Stuttgart Schwabstr.,,,276,,1
+2,000011,342,Marbach(Neckar),,,277,,1
+3,000010,343,Stuttgart Schwabstr.,,,278,,1
+3,000010,344,Bietigheim-Bissingen,,,279,,1
+3,000010,345,Stuttgart Schwabstr.,,,280,,1
+3,000010,346,Bietigheim-Bissingen,,,281,,1
+3,000010,347,Stuttgart Schwabstr.,,,282,,1
+3,000010,348,Bietigheim-Bissingen,,,283,,1
+3,000011,349,Stuttgart Schwabstr.,,,284,,1
+3,000010,350,Bietigheim-Bissingen,,,285,,1
+3,000011,351,Bietigheim-Bissingen,,,286,,1
+3,000011,352,Bietigheim-Bissingen,,,287,,1
+7,000018,353,Stuttgart Schwabstr.,,,288,,1
+7,000001,354,Stuttgart Schwabstr.,,,288,,1
+7,000001,355,Böblingen,,,289,,1
+7,000018,356,Böblingen,,,289,,1
+7,000000,357,Stuttgart Schwabstr.,,,290,,1
+7,000001,358,Stuttgart Schwabstr.,,,290,,1
+7,000001,359,Böblingen,,,291,,1
+7,000018,360,Böblingen,,,291,,1
+7,000018,361,Stuttgart Schwabstr.,,,292,,1
+7,000001,362,Stuttgart Schwabstr.,,,292,,1
+7,000019,363,Böblingen,,,293,,1
+7,000000,364,Stuttgart Schwabstr.,,,294,,1
+7,000001,365,Stuttgart Schwabstr.,,,294,,1
+7,000020,366,Böblingen,,,295,,1
+7,000018,367,Stuttgart Schwabstr.,,,296,,1
+7,000001,368,Stuttgart Schwabstr.,,,296,,1
+7,000019,369,Böblingen,,,297,,1
+7,000000,370,Stuttgart Schwabstr.,,,298,,1
+7,000001,371,Stuttgart Schwabstr.,,,298,,1
+7,000019,372,Böblingen,,,299,,1
+7,000000,373,Stuttgart Schwabstr.,,,300,,1
+7,000018,374,Stuttgart Schwabstr.,,,300,,1
+7,000019,375,Böblingen,,,301,,1
+7,000000,376,Stuttgart Schwabstr.,,,302,,1
+7,000018,377,Stuttgart Schwabstr.,,,302,,1
+7,000019,378,Böblingen,,,303,,1
+7,000000,379,Stuttgart Schwabstr.,,,304,,1
+7,000018,380,Stuttgart Schwabstr.,,,304,,1
+7,000020,381,Böblingen,,,305,,1
+7,000019,382,Böblingen,,,305,,1
+7,000000,383,Stuttgart Schwabstr.,,,306,,1
+7,000018,384,Stuttgart Schwabstr.,,,306,,1
+7,000020,385,Böblingen,,,307,,1
+7,000019,386,Böblingen,,,307,,1
+7,000000,387,Stuttgart Schwabstr.,,,308,,1
+7,000020,388,Stuttgart Schwabstr.,,,308,,1
+7,000020,389,Böblingen,,,309,,1
+7,000019,390,Böblingen,,,309,,1
+7,000021,391,Stuttgart Schwabstr.,,,310,,1
+7,000020,392,Stuttgart Schwabstr.,,,310,,1
+7,000020,393,Böblingen,,,311,,1
+7,000019,394,Böblingen,,,311,,1
+7,000021,395,Stuttgart Schwabstr.,,,312,,1
+7,000020,396,Stuttgart Schwabstr.,,,312,,1
+7,000020,397,Böblingen,,,313,,1
+7,000021,398,Böblingen,,,313,,1
+7,000021,399,Stuttgart Schwabstr.,,,314,,1
+7,000018,400,Stuttgart Schwabstr.,,,314,,1
+7,000020,401,Böblingen,,,315,,1
+7,000021,402,Böblingen,,,315,,1
+7,000021,403,Stuttgart Schwabstr.,,,316,,1
+7,000018,404,Stuttgart Schwabstr.,,,316,,1
+7,000020,405,Böblingen,,,317,,1
+7,000021,406,Böblingen,,,317,,1
+7,000021,407,Stuttgart Schwabstr.,,,318,,1
+7,000018,408,Stuttgart Schwabstr.,,,318,,1
+7,000020,409,Böblingen,,,319,,1
+7,000022,410,Böblingen,,,319,,1
+7,000021,411,Stuttgart Schwabstr.,,,320,,1
+7,000018,412,Stuttgart Schwabstr.,,,320,,1
+7,000020,413,Böblingen,,,321,,1
+7,000022,414,Böblingen,,,321,,1
+7,000021,415,Stuttgart Schwabstr.,,,322,,1
+7,000018,416,Stuttgart Schwabstr.,,,322,,1
+7,000020,417,Böblingen,,,323,,1
+7,000022,418,Böblingen,,,323,,1
+7,000021,419,Stuttgart Schwabstr.,,,324,,1
+7,000018,420,Stuttgart Schwabstr.,,,324,,1
+7,000020,421,Böblingen,,,325,,1
+7,000022,422,Böblingen,,,325,,1
+7,000021,423,Stuttgart Schwabstr.,,,326,,1
+7,000018,424,Stuttgart Schwabstr.,,,326,,1
+7,000020,425,Böblingen,,,327,,1
+7,000022,426,Böblingen,,,327,,1
+7,000021,427,Stuttgart Schwabstr.,,,328,,1
+7,000018,428,Stuttgart Schwabstr.,,,328,,1
+7,000020,429,Böblingen,,,329,,1
+7,000022,430,Böblingen,,,329,,1
+7,000021,431,Stuttgart Schwabstr.,,,330,,1
+7,000018,432,Stuttgart Schwabstr.,,,330,,1
+7,000020,433,Böblingen,,,331,,1
+7,000022,434,Böblingen,,,331,,1
+7,000021,435,Stuttgart Schwabstr.,,,332,,1
+7,000018,436,Stuttgart Schwabstr.,,,332,,1
+7,000020,437,Böblingen,,,333,,1
+7,000022,438,Böblingen,,,333,,1
+7,000021,439,Stuttgart Schwabstr.,,,334,,1
+7,000018,440,Stuttgart Schwabstr.,,,334,,1
+7,000020,441,Böblingen,,,335,,1
+7,000022,442,Böblingen,,,335,,1
+7,000021,443,Stuttgart Schwabstr.,,,336,,1
+7,000018,444,Stuttgart Schwabstr.,,,336,,1
+7,000020,445,Böblingen,,,337,,1
+7,000022,446,Böblingen,,,337,,1
+7,000021,447,Stuttgart Schwabstr.,,,338,,1
+7,000001,448,Stuttgart Schwabstr.,,,338,,1
+7,000020,449,Böblingen,,,339,,1
+7,000022,450,Böblingen,,,339,,1
+7,000021,451,Stuttgart Schwabstr.,,,340,,1
+7,000001,452,Stuttgart Schwabstr.,,,340,,1
+7,000020,453,Böblingen,,,341,,1
+7,000022,454,Böblingen,,,341,,1
+7,000021,455,Stuttgart Schwabstr.,,,342,,1
+7,000001,456,Stuttgart Schwabstr.,,,342,,1
+7,000020,457,Böblingen,,,343,,1
+7,000019,458,Böblingen,,,343,,1
+7,000000,459,Stuttgart Schwabstr.,,,344,,1
+7,000001,460,Stuttgart Schwabstr.,,,344,,1
+7,000019,461,Böblingen,,,345,,1
+7,000000,462,Stuttgart Schwabstr.,,,346,,1
+7,000001,463,Stuttgart Schwabstr.,,,346,,1
+7,000019,464,Böblingen,,,347,,1
+7,000000,465,Stuttgart Schwabstr.,,,348,,1
+7,000001,466,Stuttgart Schwabstr.,,,348,,1
+7,000019,467,Böblingen,,,349,,1
+7,000000,468,Renningen,,,350,,1
+7,000019,469,Böblingen,,,351,,1
+7,000000,470,Renningen,,,352,,1
+7,000019,471,Böblingen,,,353,,1
+7,000000,472,Renningen,,,354,,1
+7,000023,473,Böblingen,,,355,,1
+7,000023,474,Renningen,,,356,,1
+7,000000,475,Böblingen,,,357,,1
+7,000000,476,Renningen,,,358,,1
+7,000023,477,Böblingen,,,359,,1
+7,000023,478,Renningen,,,360,,1
+7,000000,479,Böblingen,,,361,,1
+7,000000,480,Renningen,,,362,,1
+7,000023,481,Böblingen,,,363,,1
+7,000024,482,Renningen,,,364,,1
+7,000000,483,Böblingen,,,365,,1
+7,000000,484,Renningen,,,366,,1
+5,000025,485,Stuttgart Schwabstr.,,,367,,1
+1,000026,486,Stuttgart Flughafen/Messe,,,368,,1
+5,000025,487,Plochingen,,,369,,1
+1,000026,488,Backnang,,,370,,1
+5,000025,489,Stuttgart Schwabstr.,,,371,,1
+1,000026,490,Stuttgart Flughafen/Messe,,,372,,1
+5,000025,491,Plochingen,,,373,,1
+1,000026,492,Backnang,,,374,,1
+5,000025,493,Stuttgart Schwabstr.,,,375,,1
+1,000026,494,Stuttgart Flughafen/Messe,,,376,,1
+5,000025,495,Plochingen,,,377,,1
+1,000026,496,Backnang,,,378,,1
+5,000019,497,Kirchheim(Teck),,,379,,1
+5,000000,498,Kirchheim(Teck),,,379,,1
+5,000027,499,Kirchheim(Teck),,,379,,1
+5,000028,500,Herrenberg,,,380,,1
+5,000029,501,Herrenberg,,,380,,1
+5,000030,502,Herrenberg,,,381,,1
+5,000018,503,Kirchheim(Teck),,,382,,1
+5,000031,504,Kirchheim(Teck),,,382,,1
+5,000029,505,Herrenberg,,,383,,1
+5,000030,506,Herrenberg,,,384,,1
+5,000000,507,Kirchheim(Teck),,,385,,1
+5,000027,508,Kirchheim(Teck),,,385,,1
+5,000027,509,Herrenberg,,,386,,1
+5,000032,510,Herrenberg,,,387,,1
+5,000000,511,Kirchheim(Teck),,,388,,1
+5,000027,512,Kirchheim(Teck),,,388,,1
+5,000027,513,Herrenberg,,,389,,1
+5,000032,514,Herrenberg,,,390,,1
+5,000000,515,Kirchheim(Teck),,,391,,1
+5,000027,516,Kirchheim(Teck),,,391,,1
+5,000027,517,Herrenberg,,,392,,1
+5,000032,518,Herrenberg,,,393,,1
+5,000000,519,Kirchheim(Teck),,,394,,1
+5,000027,520,Kirchheim(Teck),,,394,,1
+5,000027,521,Herrenberg,,,395,,1
+5,000032,522,Herrenberg,,,396,,1
+5,000000,523,Kirchheim(Teck),,,397,,1
+5,000027,524,Kirchheim(Teck),,,397,,1
+5,000027,525,Herrenberg,,,398,,1
+5,000032,526,Herrenberg,,,399,,1
+5,000000,527,Kirchheim(Teck),,,400,,1
+5,000027,528,Kirchheim(Teck),,,400,,1
+5,000027,529,Herrenberg,,,401,,1
+5,000032,530,Herrenberg,,,402,,1
+5,000000,531,Kirchheim(Teck),,,403,,1
+5,000027,532,Kirchheim(Teck),,,403,,1
+5,000027,533,Herrenberg,,,404,,1
+5,000032,534,Herrenberg,,,405,,1
+5,000000,535,Kirchheim(Teck),,,406,,1
+5,000027,536,Kirchheim(Teck),,,406,,1
+5,000027,537,Herrenberg,,,407,,1
+5,000032,538,Herrenberg,,,408,,1
+5,000000,539,Kirchheim(Teck),,,409,,1
+5,000027,540,Kirchheim(Teck),,,409,,1
+5,000027,541,Herrenberg,,,410,,1
+5,000032,542,Herrenberg,,,411,,1
+5,000000,543,Kirchheim(Teck),,,412,,1
+5,000027,544,Kirchheim(Teck),,,412,,1
+5,000027,545,Herrenberg,,,413,,1
+5,000032,546,Herrenberg,,,414,,1
+5,000000,547,Kirchheim(Teck),,,415,,1
+5,000027,548,Kirchheim(Teck),,,415,,1
+5,000027,549,Herrenberg,,,416,,1
+5,000032,550,Herrenberg,,,417,,1
+5,000000,551,Kirchheim(Teck),,,418,,1
+5,000027,552,Kirchheim(Teck),,,418,,1
+5,000027,553,Herrenberg,,,419,,1
+5,000032,554,Herrenberg,,,420,,1
+5,000000,555,Kirchheim(Teck),,,421,,1
+5,000027,556,Kirchheim(Teck),,,421,,1
+5,000027,557,Herrenberg,,,422,,1
+5,000032,558,Herrenberg,,,423,,1
+5,000000,559,Kirchheim(Teck),,,424,,1
+5,000027,560,Kirchheim(Teck),,,424,,1
+5,000027,561,Herrenberg,,,425,,1
+5,000032,562,Herrenberg,,,426,,1
+5,000000,563,Kirchheim(Teck),,,427,,1
+5,000027,564,Kirchheim(Teck),,,427,,1
+5,000027,565,Herrenberg,,,428,,1
+5,000032,566,Herrenberg,,,429,,1
+5,000000,567,Kirchheim(Teck),,,430,,1
+5,000027,568,Kirchheim(Teck),,,430,,1
+5,000027,569,Herrenberg,,,431,,1
+5,000032,570,Herrenberg,,,432,,1
+5,000000,571,Kirchheim(Teck),,,433,,1
+5,000027,572,Kirchheim(Teck),,,433,,1
+5,000027,573,Herrenberg,,,434,,1
+5,000032,574,Herrenberg,,,435,,1
+5,000000,575,Kirchheim(Teck),,,436,,1
+5,000027,576,Kirchheim(Teck),,,436,,1
+5,000027,577,Herrenberg,,,437,,1
+5,000032,578,Herrenberg,,,438,,1
+5,000000,579,Kirchheim(Teck),,,439,,1
+5,000027,580,Kirchheim(Teck),,,439,,1
+5,000027,581,Herrenberg,,,440,,1
+5,000032,582,Herrenberg,,,441,,1
+5,000000,583,Kirchheim(Teck),,,442,,1
+5,000027,584,Kirchheim(Teck),,,442,,1
+5,000027,585,Herrenberg,,,443,,1
+5,000032,586,Herrenberg,,,444,,1
+5,000000,587,Kirchheim(Teck),,,445,,1
+5,000027,588,Kirchheim(Teck),,,445,,1
+5,000027,589,Herrenberg,,,446,,1
+5,000032,590,Herrenberg,,,447,,1
+5,000000,591,Kirchheim(Teck),,,448,,1
+5,000027,592,Kirchheim(Teck),,,448,,1
+5,000027,593,Herrenberg,,,449,,1
+5,000032,594,Herrenberg,,,450,,1
+5,000000,595,Kirchheim(Teck),,,451,,1
+5,000027,596,Kirchheim(Teck),,,451,,1
+5,000027,597,Herrenberg,,,452,,1
+5,000032,598,Herrenberg,,,453,,1
+5,000000,599,Kirchheim(Teck),,,454,,1
+5,000027,600,Kirchheim(Teck),,,454,,1
+5,000027,601,Herrenberg,,,455,,1
+5,000032,602,Herrenberg,,,456,,1
+5,000000,603,Kirchheim(Teck),,,457,,1
+5,000027,604,Kirchheim(Teck),,,457,,1
+5,000027,605,Herrenberg,,,458,,1
+5,000032,606,Herrenberg,,,459,,1
+5,000000,607,Kirchheim(Teck),,,460,,1
+5,000027,608,Kirchheim(Teck),,,460,,1
+5,000027,609,Herrenberg,,,461,,1
+5,000032,610,Herrenberg,,,462,,1
+5,000000,611,Kirchheim(Teck),,,463,,1
+5,000027,612,Kirchheim(Teck),,,463,,1
+5,000027,613,Herrenberg,,,464,,1
+5,000032,614,Herrenberg,,,465,,1
+5,000000,615,Kirchheim(Teck),,,466,,1
+5,000027,616,Kirchheim(Teck),,,466,,1
+5,000027,617,Herrenberg,,,467,,1
+5,000032,618,Herrenberg,,,468,,1
+5,000000,619,Kirchheim(Teck),,,469,,1
+5,000027,620,Kirchheim(Teck),,,469,,1
+5,000027,621,Herrenberg,,,470,,1
+5,000032,622,Herrenberg,,,471,,1
+5,000000,623,Kirchheim(Teck),,,472,,1
+5,000027,624,Kirchheim(Teck),,,472,,1
+5,000027,625,Herrenberg,,,473,,1
+5,000032,626,Herrenberg,,,474,,1
+5,000000,627,Kirchheim(Teck),,,475,,1
+5,000027,628,Kirchheim(Teck),,,475,,1
+5,000027,629,Herrenberg,,,476,,1
+5,000032,630,Herrenberg,,,477,,1
+5,000023,631,Kirchheim(Teck),,,478,,1
+5,000033,632,Kirchheim(Teck),,,478,,1
+5,000033,633,Herrenberg,,,479,,1
+5,000032,634,Herrenberg,,,480,,1
+5,000000,635,Kirchheim(Teck),,,481,,1
+5,000034,636,Kirchheim(Teck),,,481,,1
+5,000027,637,Herrenberg,,,482,,1
+5,000032,638,Herrenberg,,,483,,1
+5,000023,639,Kirchheim(Teck),,,484,,1
+5,000035,640,Kirchheim(Teck),,,484,,1
+5,000036,641,Herrenberg,,,485,,1
+5,000032,642,Herrenberg,,,486,,1
+5,000037,643,Kirchheim(Teck),,,487,,1
+5,000038,644,Kirchheim(Teck),,,487,,1
+5,000032,645,Herrenberg,,,488,,1
+5,000039,646,Herrenberg,,,489,,1
+5,000040,647,Herrenberg,,,489,,1
+5,000041,648,Kirchheim(Teck),,,490,,1
+5,000042,649,Kirchheim(Teck),,,490,,1
+5,000032,650,Herrenberg,,,491,,1
+5,000042,651,Herrenberg,,,492,,1
+5,000036,652,Herrenberg,,,492,,1
+5,000043,653,Herrenberg,,,492,,1
+5,000037,654,Kirchheim(Teck),,,493,,1
+5,000038,655,Kirchheim(Teck),,,493,,1
+5,000032,656,Herrenberg,,,494,,1
+5,000038,657,Herrenberg,,,495,,1
+5,000039,658,Herrenberg,,,495,,1
+5,000040,659,Herrenberg,,,495,,1
+5,000044,660,Kirchheim(Teck),,,496,,1
+5,000041,661,Kirchheim(Teck),,,496,,1
+5,000042,662,Kirchheim(Teck),,,496,,1
+5,000032,663,Herrenberg,,,497,,1
+5,000042,664,Herrenberg,,,498,,1
+5,000036,665,Herrenberg,,,498,,1
+5,000043,666,Herrenberg,,,498,,1
+5,000045,667,Kirchheim(Teck),,,499,,1
+5,000046,668,Kirchheim(Teck),,,499,,1
+5,000047,669,Kirchheim(Teck),,,499,,1
+5,000048,670,Herrenberg,,,500,,1
+5,000047,671,Herrenberg,,,501,,1
+5,000049,672,Herrenberg,,,501,,1
+5,000050,673,Herrenberg,,,501,,1
+5,000019,674,Kirchheim(Teck),,,502,,1
+5,000028,675,Kirchheim(Teck),,,502,,1
+5,000028,676,Herrenberg,,,503,,1
+5,000030,677,Herrenberg,,,504,,1
+5,000051,678,Kirchheim(Teck),,,505,,1
+5,000052,679,Kirchheim(Teck),,,505,,1
+5,000052,680,Herrenberg,,,506,,1
+5,000030,681,Herrenberg,,,507,,1
+5,000019,682,Kirchheim(Teck),,,508,,1
+5,000028,683,Kirchheim(Teck),,,508,,1
+5,000028,684,Herrenberg,,,509,,1
+5,000030,685,Herrenberg,,,510,,1
+8,000053,686,Esslingen(Neckar),,,511,,1
+5,000054,687,Wendlingen(Neckar),,,512,,1
+8,000053,688,Stuttgart Neckarpark,,,513,,1
+8,000054,689,Herrenberg,,,514,,1
+5,000053,690,Stuttgart Schwabstr.,,,515,,1
+5,000053,691,Stuttgart Neckarpark,,,516,,1
+8,000054,692,Herrenberg,,,517,,1
+8,000053,693,Herrenberg,,,518,,1
+1,000055,694,Stuttgart-Bad Cannstatt,,,519,,1
+5,000053,695,Wendlingen(Neckar),,,520,,1
+8,000053,696,Herrenberg,,,521,,1
+1,000055,697,Stuttgart-Bad Cannstatt,,,522,,1
+1,000055,698,Stuttgart-Bad Cannstatt,,,523,,1
+6,000000,699,Schorndorf,,,524,,1
+6,000056,700,Schorndorf,,,524,,1
+6,000001,701,Filderstadt,,,525,,1
+6,000018,702,Schorndorf,,,526,,1
+6,000057,703,Schorndorf,,,526,,1
+6,000056,704,Filderstadt,,,527,,1
+6,000000,705,Filderstadt,,,527,,1
+6,000000,706,Schorndorf,,,528,,1
+6,000056,707,Schorndorf,,,528,,1
+6,000057,708,Filderstadt,,,529,,1
+6,000018,709,Filderstadt,,,529,,1
+6,000018,710,Schorndorf,,,530,,1
+6,000057,711,Schorndorf,,,530,,1
+6,000056,712,Filderstadt,,,531,,1
+6,000000,713,Filderstadt,,,531,,1
+6,000000,714,Schorndorf,,,532,,1
+6,000056,715,Schorndorf,,,532,,1
+6,000057,716,Filderstadt,,,533,,1
+6,000018,717,Filderstadt,,,533,,1
+6,000018,718,Schorndorf,,,534,,1
+6,000057,719,Schorndorf,,,534,,1
+6,000056,720,Filderstadt,,,535,,1
+6,000000,721,Filderstadt,,,535,,1
+6,000000,722,Schorndorf,,,536,,1
+6,000056,723,Schorndorf,,,536,,1
+6,000056,724,Filderstadt,,,537,,1
+6,000000,725,Filderstadt,,,537,,1
+6,000000,726,Schorndorf,,,538,,1
+6,000056,727,Schorndorf,,,538,,1
+6,000056,728,Filderstadt,,,539,,1
+6,000000,729,Filderstadt,,,539,,1
+6,000000,730,Schorndorf,,,540,,1
+6,000056,731,Schorndorf,,,540,,1
+6,000056,732,Filderstadt,,,541,,1
+6,000000,733,Filderstadt,,,541,,1
+6,000000,734,Schorndorf,,,542,,1
+6,000056,735,Schorndorf,,,542,,1
+6,000056,736,Filderstadt,,,543,,1
+6,000000,737,Filderstadt,,,543,,1
+6,000000,738,Schorndorf,,,544,,1
+6,000056,739,Schorndorf,,,544,,1
+6,000056,740,Filderstadt,,,545,,1
+6,000000,741,Filderstadt,,,545,,1
+6,000000,742,Schorndorf,,,546,,1
+6,000056,743,Schorndorf,,,546,,1
+6,000056,744,Filderstadt,,,547,,1
+6,000000,745,Filderstadt,,,547,,1
+6,000000,746,Schorndorf,,,548,,1
+6,000056,747,Schorndorf,,,548,,1
+6,000056,748,Filderstadt,,,549,,1
+6,000000,749,Filderstadt,,,549,,1
+6,000000,750,Schorndorf,,,550,,1
+6,000056,751,Schorndorf,,,550,,1
+6,000056,752,Filderstadt,,,551,,1
+6,000000,753,Filderstadt,,,551,,1
+6,000000,754,Schorndorf,,,552,,1
+6,000056,755,Schorndorf,,,552,,1
+6,000056,756,Filderstadt,,,553,,1
+6,000000,757,Filderstadt,,,553,,1
+6,000000,758,Schorndorf,,,554,,1
+6,000056,759,Schorndorf,,,554,,1
+6,000056,760,Filderstadt,,,555,,1
+6,000000,761,Filderstadt,,,555,,1
+6,000000,762,Schorndorf,,,556,,1
+6,000056,763,Schorndorf,,,556,,1
+6,000056,764,Filderstadt,,,557,,1
+6,000000,765,Filderstadt,,,557,,1
+6,000000,766,Schorndorf,,,558,,1
+6,000056,767,Schorndorf,,,558,,1
+6,000056,768,Filderstadt,,,559,,1
+6,000000,769,Filderstadt,,,559,,1
+6,000000,770,Schorndorf,,,560,,1
+6,000056,771,Schorndorf,,,560,,1
+6,000056,772,Filderstadt,,,561,,1
+6,000000,773,Filderstadt,,,561,,1
+6,000000,774,Schorndorf,,,562,,1
+6,000056,775,Schorndorf,,,562,,1
+6,000056,776,Filderstadt,,,563,,1
+6,000000,777,Filderstadt,,,563,,1
+6,000000,778,Schorndorf,,,564,,1
+6,000056,779,Schorndorf,,,564,,1
+6,000056,780,Filderstadt,,,565,,1
+6,000000,781,Filderstadt,,,565,,1
+6,000000,782,Schorndorf,,,566,,1
+6,000056,783,Schorndorf,,,566,,1
+6,000056,784,Filderstadt,,,567,,1
+6,000000,785,Filderstadt,,,567,,1
+6,000000,786,Schorndorf,,,568,,1
+6,000056,787,Schorndorf,,,568,,1
+6,000056,788,Filderstadt,,,569,,1
+6,000000,789,Filderstadt,,,569,,1
+6,000000,790,Schorndorf,,,570,,1
+6,000056,791,Schorndorf,,,570,,1
+6,000056,792,Filderstadt,,,571,,1
+6,000000,793,Filderstadt,,,571,,1
+6,000000,794,Schorndorf,,,572,,1
+6,000056,795,Schorndorf,,,572,,1
+6,000056,796,Filderstadt,,,573,,1
+6,000000,797,Filderstadt,,,573,,1
+6,000000,798,Schorndorf,,,574,,1
+6,000056,799,Schorndorf,,,574,,1
+6,000056,800,Filderstadt,,,575,,1
+6,000000,801,Filderstadt,,,575,,1
+6,000000,802,Schorndorf,,,576,,1
+6,000056,803,Schorndorf,,,576,,1
+6,000056,804,Filderstadt,,,577,,1
+6,000000,805,Filderstadt,,,577,,1
+6,000058,806,Filderstadt,,,577,,1
+6,000058,807,Schorndorf,,,578,,1
+6,000000,808,Schorndorf,,,578,,1
+6,000056,809,Schorndorf,,,578,,1
+6,000056,810,Filderstadt,,,579,,1
+6,000000,811,Filderstadt,,,579,,1
+6,000058,812,Filderstadt,,,579,,1
+6,000058,813,Schorndorf,,,580,,1
+6,000000,814,Schorndorf,,,580,,1
+6,000056,815,Schorndorf,,,580,,1
+6,000056,816,Filderstadt,,,581,,1
+6,000000,817,Filderstadt,,,581,,1
+6,000058,818,Filderstadt,,,581,,1
+6,000058,819,Schorndorf,,,582,,1
+6,000000,820,Schorndorf,,,582,,1
+6,000056,821,Schorndorf,,,582,,1
+6,000056,822,Filderstadt,,,583,,1
+6,000000,823,Filderstadt,,,583,,1
+6,000058,824,Filderstadt,,,583,,1
+6,000058,825,Schorndorf,,,584,,1
+6,000000,826,Schorndorf,,,584,,1
+6,000056,827,Schorndorf,,,584,,1
+6,000056,828,Filderstadt,,,585,,1
+6,000000,829,Filderstadt,,,585,,1
+6,000058,830,Filderstadt,,,585,,1
+6,000058,831,Schorndorf,,,586,,1
+6,000000,832,Schorndorf,,,586,,1
+6,000059,833,Schorndorf,,,586,,1
+6,000056,834,Filderstadt,,,587,,1
+6,000000,835,Filderstadt,,,587,,1
+6,000058,836,Filderstadt,,,587,,1
+6,000058,837,Schorndorf,,,588,,1
+6,000000,838,Schorndorf,,,588,,1
+6,000059,839,Schorndorf,,,588,,1
+6,000060,840,Filderstadt,,,589,,1
+6,000023,841,Filderstadt,,,589,,1
+6,000061,842,Filderstadt,,,589,,1
+6,000061,843,Schorndorf,,,590,,1
+6,000023,844,Schorndorf,,,590,,1
+6,000062,845,Schorndorf,,,590,,1
+6,000056,846,Filderstadt,,,591,,1
+6,000000,847,Filderstadt,,,591,,1
+6,000058,848,Filderstadt,,,591,,1
+6,000063,849,Schorndorf,,,592,,1
+6,000037,850,Schorndorf,,,592,,1
+6,000064,851,Schorndorf,,,592,,1
+6,000060,852,Filderstadt,,,593,,1
+6,000023,853,Filderstadt,,,593,,1
+6,000061,854,Filderstadt,,,593,,1
+6,000065,855,Schorndorf,,,594,,1
+6,000041,856,Schorndorf,,,594,,1
+6,000066,857,Schorndorf,,,594,,1
+6,000064,858,Filderstadt,,,595,,1
+6,000037,859,Filderstadt,,,595,,1
+6,000063,860,Filderstadt,,,595,,1
+6,000063,861,Schorndorf,,,596,,1
+6,000037,862,Schorndorf,,,596,,1
+6,000064,863,Schorndorf,,,596,,1
+6,000066,864,Filderstadt,,,597,,1
+6,000041,865,Filderstadt,,,597,,1
+6,000065,866,Filderstadt,,,597,,1
+6,000065,867,Schorndorf,,,598,,1
+6,000041,868,Schorndorf,,,598,,1
+6,000066,869,Schorndorf,,,598,,1
+6,000064,870,Filderstadt,,,599,,1
+6,000037,871,Filderstadt,,,599,,1
+6,000063,872,Filderstadt,,,599,,1
+6,000067,873,Schorndorf,,,600,,1
+6,000046,874,Schorndorf,,,600,,1
+6,000068,875,Schorndorf,,,600,,1
+6,000069,876,Filderstadt,,,601,,1
+6,000070,877,Filderstadt,,,601,,1
+6,000071,878,Filderstadt,,,601,,1
+6,000072,879,Filderstadt,,,602,,1
+6,000073,880,Schorndorf,,,603,,1
+6,000074,881,Schorndorf,,,603,,1
+6,000075,882,Schorndorf,,,603,,1
+6,000076,883,Filderstadt,,,604,,1
+6,000077,884,Filderstadt,,,604,,1
+6,000078,885,Filderstadt,,,604,,1
+6,000072,886,Filderstadt,,,605,,1
+6,000019,887,Schorndorf,,,606,,1
+6,000079,888,Schorndorf,,,606,,1
+6,000080,889,Filderstadt,,,607,,1
+6,000081,890,Filderstadt,,,607,,1
+6,000082,891,Filderstadt,,,607,,1
+6,000083,892,Filderstadt,,,608,,1
+6,000051,893,Schorndorf,,,609,,1
+6,000084,894,Schorndorf,,,609,,1
+6,000079,895,Filderstadt,,,610,,1
+6,000019,896,Filderstadt,,,610,,1
+6,000019,897,Schorndorf,,,611,,1
+6,000079,898,Schorndorf,,,611,,1
+6,000079,899,Filderstadt,,,612,,1
+6,000019,900,Filderstadt,,,612,,1
+6,000019,901,Schorndorf,,,613,,1
+6,000079,902,Schorndorf,,,613,,1
+6,000084,903,Filderstadt,,,614,,1
+6,000051,904,Filderstadt,,,614,,1
+6,000079,905,Filderstadt,,,615,,1
+6,000019,906,Filderstadt,,,615,,1
+1,000089,907,Backnang,,,616,,1
+1,000001,908,Backnang,,,617,,1
+1,000002,909,Backnang,,,617,,1
+1,000085,910,Stuttgart Flughafen/Messe,,,618,,1
+1,000018,911,Stuttgart Flughafen/Messe,,,618,,1
+1,000001,912,Stuttgart Flughafen/Messe,,,618,,1
+1,000086,913,Winnenden,,,619,,1
+1,000001,914,Backnang,,,620,,1
+1,000018,915,Backnang,,,620,,1
+1,000085,916,Backnang,,,620,,1
+1,000086,917,Backnang,,,621,,1
+1,000087,918,Stuttgart Flughafen/Messe,,,622,,1
+1,000000,919,Stuttgart Flughafen/Messe,,,622,,1
+1,000088,920,Stuttgart Flughafen/Messe,,,622,,1
+1,000089,921,Winnenden,,,623,,1
+1,000089,922,Backnang,,,624,,1
+1,000088,923,Backnang,,,625,,1
+1,000000,924,Backnang,,,625,,1
+1,000087,925,Backnang,,,625,,1
+1,000085,926,Stuttgart Flughafen/Messe,,,626,,1
+1,000018,927,Stuttgart Flughafen/Messe,,,626,,1
+1,000001,928,Stuttgart Flughafen/Messe,,,626,,1
+1,000086,929,Winnenden,,,627,,1
+1,000086,930,Backnang,,,628,,1
+1,000001,931,Backnang,,,629,,1
+1,000018,932,Backnang,,,629,,1
+1,000085,933,Backnang,,,629,,1
+1,000087,934,Stuttgart Flughafen/Messe,,,630,,1
+1,000000,935,Stuttgart Flughafen/Messe,,,630,,1
+1,000088,936,Stuttgart Flughafen/Messe,,,630,,1
+1,000089,937,Winnenden,,,631,,1
+1,000088,938,Backnang,,,632,,1
+1,000000,939,Backnang,,,632,,1
+1,000087,940,Backnang,,,632,,1
+1,000089,941,Backnang,,,633,,1
+1,000085,942,Stuttgart Flughafen/Messe,,,634,,1
+1,000018,943,Stuttgart Flughafen/Messe,,,634,,1
+1,000001,944,Stuttgart Flughafen/Messe,,,634,,1
+1,000086,945,Winnenden,,,635,,1
+1,000089,946,Backnang,,,636,,1
+1,000001,947,Backnang,,,637,,1
+1,000090,948,Backnang,,,637,,1
+1,000091,949,Backnang,,,637,,1
+1,000087,950,Stuttgart Flughafen/Messe,,,638,,1
+1,000000,951,Stuttgart Flughafen/Messe,,,638,,1
+1,000089,952,Winnenden,,,639,,1
+1,000089,953,Backnang,,,640,,1
+1,000088,954,Backnang,,,641,,1
+1,000000,955,Backnang,,,641,,1
+1,000087,956,Backnang,,,641,,1
+1,000087,957,Stuttgart Flughafen/Messe,,,642,,1
+1,000000,958,Stuttgart Flughafen/Messe,,,642,,1
+1,000089,959,Winnenden,,,643,,1
+1,000089,960,Backnang,,,644,,1
+1,000000,961,Backnang,,,645,,1
+1,000087,962,Backnang,,,645,,1
+1,000087,963,Stuttgart Flughafen/Messe,,,646,,1
+1,000000,964,Stuttgart Flughafen/Messe,,,646,,1
+1,000089,965,Winnenden,,,647,,1
+1,000089,966,Backnang,,,648,,1
+1,000000,967,Backnang,,,649,,1
+1,000087,968,Backnang,,,649,,1
+1,000087,969,Stuttgart Flughafen/Messe,,,650,,1
+1,000000,970,Stuttgart Flughafen/Messe,,,650,,1
+1,000089,971,Winnenden,,,651,,1
+1,000089,972,Backnang,,,652,,1
+1,000000,973,Backnang,,,653,,1
+1,000087,974,Backnang,,,653,,1
+1,000087,975,Stuttgart Flughafen/Messe,,,654,,1
+1,000000,976,Stuttgart Flughafen/Messe,,,654,,1
+1,000089,977,Winnenden,,,655,,1
+1,000000,978,Backnang,,,656,,1
+1,000087,979,Backnang,,,656,,1
+1,000089,980,Backnang,,,657,,1
+1,000087,981,Stuttgart Flughafen/Messe,,,658,,1
+1,000000,982,Stuttgart Flughafen/Messe,,,658,,1
+1,000089,983,Winnenden,,,659,,1
+1,000000,984,Backnang,,,660,,1
+1,000087,985,Backnang,,,660,,1
+1,000089,986,Backnang,,,661,,1
+1,000087,987,Stuttgart Flughafen/Messe,,,662,,1
+1,000000,988,Stuttgart Flughafen/Messe,,,662,,1
+1,000089,989,Winnenden,,,663,,1
+1,000000,990,Backnang,,,664,,1
+1,000087,991,Backnang,,,664,,1
+1,000089,992,Backnang,,,665,,1
+1,000087,993,Stuttgart Flughafen/Messe,,,666,,1
+1,000000,994,Stuttgart Flughafen/Messe,,,666,,1
+1,000089,995,Winnenden,,,667,,1
+1,000089,996,Backnang,,,668,,1
+1,000000,997,Backnang,,,669,,1
+1,000087,998,Backnang,,,669,,1
+1,000087,999,Stuttgart Flughafen/Messe,,,670,,1
+1,000000,1000,Stuttgart Flughafen/Messe,,,670,,1
+1,000089,1001,Winnenden,,,671,,1
+1,000000,1002,Backnang,,,672,,1
+1,000087,1003,Backnang,,,672,,1
+1,000089,1004,Backnang,,,673,,1
+1,000087,1005,Stuttgart Flughafen/Messe,,,674,,1
+1,000000,1006,Stuttgart Flughafen/Messe,,,674,,1
+1,000089,1007,Winnenden,,,675,,1
+1,000089,1008,Backnang,,,676,,1
+1,000000,1009,Backnang,,,677,,1
+1,000087,1010,Backnang,,,677,,1
+1,000087,1011,Stuttgart Flughafen/Messe,,,678,,1
+1,000000,1012,Stuttgart Flughafen/Messe,,,678,,1
+1,000089,1013,Winnenden,,,679,,1
+1,000000,1014,Backnang,,,680,,1
+1,000087,1015,Backnang,,,680,,1
+1,000089,1016,Backnang,,,681,,1
+1,000087,1017,Stuttgart Flughafen/Messe,,,682,,1
+1,000000,1018,Stuttgart Flughafen/Messe,,,682,,1
+1,000089,1019,Winnenden,,,683,,1
+1,000089,1020,Backnang,,,684,,1
+1,000000,1021,Backnang,,,685,,1
+1,000087,1022,Backnang,,,685,,1
+1,000087,1023,Stuttgart Flughafen/Messe,,,686,,1
+1,000000,1024,Stuttgart Flughafen/Messe,,,686,,1
+1,000089,1025,Winnenden,,,687,,1
+1,000089,1026,Backnang,,,688,,1
+1,000000,1027,Backnang,,,689,,1
+1,000087,1028,Backnang,,,689,,1
+1,000087,1029,Stuttgart Flughafen/Messe,,,690,,1
+1,000000,1030,Stuttgart Flughafen/Messe,,,690,,1
+1,000089,1031,Winnenden,,,691,,1
+1,000089,1032,Backnang,,,692,,1
+1,000000,1033,Backnang,,,693,,1
+1,000087,1034,Backnang,,,693,,1
+1,000087,1035,Stuttgart Flughafen/Messe,,,694,,1
+1,000000,1036,Stuttgart Flughafen/Messe,,,694,,1
+1,000089,1037,Winnenden,,,695,,1
+1,000089,1038,Backnang,,,696,,1
+1,000000,1039,Backnang,,,697,,1
+1,000087,1040,Backnang,,,697,,1
+1,000087,1041,Stuttgart Flughafen/Messe,,,698,,1
+1,000000,1042,Stuttgart Flughafen/Messe,,,698,,1
+1,000089,1043,Winnenden,,,699,,1
+1,000000,1044,Backnang,,,700,,1
+1,000087,1045,Backnang,,,700,,1
+1,000089,1046,Backnang,,,701,,1
+1,000087,1047,Stuttgart Flughafen/Messe,,,702,,1
+1,000000,1048,Stuttgart Flughafen/Messe,,,702,,1
+1,000089,1049,Winnenden,,,703,,1
+1,000089,1050,Backnang,,,704,,1
+1,000000,1051,Backnang,,,705,,1
+1,000087,1052,Backnang,,,705,,1
+1,000087,1053,Stuttgart Flughafen/Messe,,,706,,1
+1,000000,1054,Stuttgart Flughafen/Messe,,,706,,1
+1,000089,1055,Winnenden,,,707,,1
+1,000089,1056,Backnang,,,708,,1
+1,000000,1057,Backnang,,,709,,1
+1,000087,1058,Backnang,,,709,,1
+1,000087,1059,Stuttgart Flughafen/Messe,,,710,,1
+1,000000,1060,Stuttgart Flughafen/Messe,,,710,,1
+1,000089,1061,Winnenden,,,711,,1
+1,000089,1062,Backnang,,,712,,1
+1,000000,1063,Backnang,,,713,,1
+1,000087,1064,Backnang,,,713,,1
+1,000087,1065,Stuttgart Flughafen/Messe,,,714,,1
+1,000000,1066,Stuttgart Flughafen/Messe,,,714,,1
+1,000089,1067,Winnenden,,,715,,1
+1,000089,1068,Backnang,,,716,,1
+1,000000,1069,Backnang,,,717,,1
+1,000087,1070,Backnang,,,717,,1
+1,000087,1071,Stuttgart Flughafen/Messe,,,718,,1
+1,000000,1072,Stuttgart Flughafen/Messe,,,718,,1
+1,000089,1073,Winnenden,,,719,,1
+1,000089,1074,Backnang,,,720,,1
+1,000000,1075,Backnang,,,721,,1
+1,000087,1076,Backnang,,,721,,1
+1,000087,1077,Stuttgart Flughafen/Messe,,,722,,1
+1,000000,1078,Stuttgart Flughafen/Messe,,,722,,1
+1,000089,1079,Winnenden,,,723,,1
+1,000000,1080,Backnang,,,724,,1
+1,000087,1081,Backnang,,,724,,1
+1,000089,1082,Backnang,,,725,,1
+1,000087,1083,Stuttgart Flughafen/Messe,,,726,,1
+1,000000,1084,Stuttgart Flughafen/Messe,,,726,,1
+1,000089,1085,Winnenden,,,727,,1
+1,000089,1086,Backnang,,,728,,1
+1,000000,1087,Backnang,,,729,,1
+1,000087,1088,Backnang,,,729,,1
+1,000087,1089,Stuttgart Flughafen/Messe,,,730,,1
+1,000000,1090,Stuttgart Flughafen/Messe,,,730,,1
+1,000001,1091,Stuttgart Flughafen/Messe,,,730,,1
+1,000089,1092,Winnenden,,,731,,1
+1,000000,1093,Backnang,,,732,,1
+1,000087,1094,Backnang,,,732,,1
+1,000089,1095,Backnang,,,733,,1
+1,000087,1096,Stuttgart Flughafen/Messe,,,734,,1
+1,000000,1097,Stuttgart Flughafen/Messe,,,734,,1
+1,000001,1098,Stuttgart Flughafen/Messe,,,734,,1
+1,000089,1099,Winnenden,,,735,,1
+1,000089,1100,Backnang,,,736,,1
+1,000001,1101,Backnang,,,737,,1
+1,000000,1102,Backnang,,,737,,1
+1,000087,1103,Backnang,,,737,,1
+1,000087,1104,Stuttgart Flughafen/Messe,,,738,,1
+1,000000,1105,Stuttgart Flughafen/Messe,,,738,,1
+1,000001,1106,Stuttgart Flughafen/Messe,,,738,,1
+1,000089,1107,Winnenden,,,739,,1
+1,000089,1108,Backnang,,,740,,1
+1,000001,1109,Backnang,,,741,,1
+1,000000,1110,Backnang,,,741,,1
+1,000087,1111,Backnang,,,741,,1
+1,000087,1112,Stuttgart Flughafen/Messe,,,742,,1
+1,000000,1113,Stuttgart Flughafen/Messe,,,742,,1
+1,000001,1114,Stuttgart Flughafen/Messe,,,742,,1
+1,000089,1115,Winnenden,,,743,,1
+1,000089,1116,Backnang,,,744,,1
+1,000001,1117,Backnang,,,745,,1
+1,000000,1118,Backnang,,,745,,1
+1,000087,1119,Backnang,,,745,,1
+1,000092,1120,Stuttgart Flughafen/Messe,,,746,,1
+1,000023,1121,Stuttgart Flughafen/Messe,,,746,,1
+1,000001,1122,Stuttgart Flughafen/Messe,,,746,,1
+1,000089,1123,Winnenden,,,747,,1
+1,000001,1124,Backnang,,,748,,1
+1,000023,1125,Backnang,,,748,,1
+1,000092,1126,Backnang,,,748,,1
+1,000089,1127,Backnang,,,749,,1
+1,000087,1128,Stuttgart Flughafen/Messe,,,750,,1
+1,000000,1129,Stuttgart Flughafen/Messe,,,750,,1
+1,000001,1130,Stuttgart Flughafen/Messe,,,750,,1
+1,000089,1131,Winnenden,,,751,,1
+1,000001,1132,Backnang,,,752,,1
+1,000000,1133,Backnang,,,752,,1
+1,000087,1134,Backnang,,,752,,1
+1,000089,1135,Backnang,,,753,,1
+1,000092,1136,Stuttgart Flughafen/Messe,,,754,,1
+1,000023,1137,Stuttgart Flughafen/Messe,,,754,,1
+1,000001,1138,Stuttgart Flughafen/Messe,,,754,,1
+1,000089,1139,Winnenden,,,755,,1
+1,000093,1140,Backnang,,,756,,1
+1,000041,1141,Backnang,,,756,,1
+1,000094,1142,Backnang,,,756,,1
+1,000096,1143,Stuttgart Flughafen/Messe,,,757,,1
+1,000037,1144,Stuttgart Flughafen/Messe,,,757,,1
+1,000093,1145,Stuttgart Flughafen/Messe,,,757,,1
+1,000093,1146,Backnang,,,758,,1
+1,000037,1147,Backnang,,,758,,1
+1,000096,1148,Backnang,,,758,,1
+1,000094,1149,Stuttgart Flughafen/Messe,,,759,,1
+1,000041,1150,Stuttgart Flughafen/Messe,,,759,,1
+1,000093,1151,Stuttgart Flughafen/Messe,,,759,,1
+1,000093,1152,Backnang,,,760,,1
+1,000041,1153,Backnang,,,760,,1
+1,000098,1154,Backnang,,,760,,1
+1,000099,1155,Stuttgart-Vaihingen,,,761,,1
+1,000077,1156,Stuttgart-Vaihingen,,,761,,1
+1,000072,1157,Stuttgart-Vaihingen,,,762,,1
+1,000095,1158,Backnang,,,763,,1
+1,000093,1159,Backnang,,,764,,1
+1,000101,1160,Backnang,,,764,,1
+1,000102,1161,Stuttgart-Vaihingen,,,765,,1
+1,000070,1162,Stuttgart-Vaihingen,,,765,,1
+1,000072,1163,Stuttgart-Vaihingen,,,766,,1
+1,000103,1164,Backnang,,,767,,1
+1,000104,1165,Backnang,,,767,,1
+1,000106,1166,Stuttgart-Vaihingen,,,768,,1
+1,000107,1167,Stuttgart-Vaihingen,,,768,,1
+1,000108,1168,Winnenden,,,769,,1
+1,000109,1169,Backnang,,,770,,1
+1,000110,1170,Backnang,,,770,,1
+1,000106,1171,Stuttgart-Vaihingen,,,771,,1
+1,000108,1172,Stuttgart-Vaihingen,,,772,,1
+1,000108,1173,Winnenden,,,773,,1
+1,000111,1174,Backnang,,,774,,1
+1,000112,1175,Backnang,,,774,,1
+1,000108,1176,Backnang,,,775,,1
+1,000112,1177,Stuttgart-Vaihingen,,,776,,1
+1,000108,1178,Winnenden,,,777,,1
+1,000108,1179,Stuttgart-Vaihingen,,,778,,1
+1,000108,1180,Backnang,,,779,,1
+1,000107,1181,Backnang,,,780,,1
+1,000106,1182,Backnang,,,780,,1
+1,000113,1183,Stuttgart Flughafen/Messe,,,781,,1
+1,000108,1184,Winnenden,,,782,,1
+1,000108,1185,Stuttgart Flughafen/Messe,,,783,,1
+1,000107,1186,Backnang,,,784,,1
+1,000106,1187,Backnang,,,784,,1
+1,000108,1188,Backnang,,,785,,1
+1,000106,1189,Stuttgart-Vaihingen,,,786,,1
+1,000108,1190,Winnenden,,,787,,1
+1,000108,1191,Stuttgart-Vaihingen,,,788,,1
+1,000107,1192,Backnang,,,789,,1
+1,000114,1193,Backnang,,,789,,1
+1,000019,1194,Backnang,,,790,,1
+1,000116,1195,Backnang,,,790,,1
+1,000055,1196,Stuttgart-Bad Cannstatt,,,791,,1
+1,000055,1197,Stuttgart Flughafen/Messe,,,792,,1
+1,000055,1198,Stuttgart Flughafen/Messe,,,793,,1
+1,000055,1199,Stuttgart Flughafen/Messe,,,794,,1
+2,000018,1200,Backnang,,,795,,1
+2,000001,1201,Backnang,,,795,,1
+2,000117,1202,Backnang,,,795,,1
+2,000001,1203,Stuttgart Schwabstr.,,,796,,1
+2,000000,1204,Backnang,,,797,,1
+2,000118,1205,Backnang,,,797,,1
+2,000119,1206,Stuttgart Schwabstr.,,,798,,1
+2,000018,1207,Stuttgart Schwabstr.,,,798,,1
+2,000000,1208,Stuttgart Schwabstr.,,,798,,1
+2,000018,1209,Backnang,,,799,,1
+2,000001,1210,Backnang,,,799,,1
+2,000117,1211,Backnang,,,799,,1
+2,000117,1212,Stuttgart Schwabstr.,,,800,,1
+2,000001,1213,Stuttgart Schwabstr.,,,800,,1
+2,000018,1214,Stuttgart Schwabstr.,,,800,,1
+2,000000,1215,Backnang,,,801,,1
+2,000118,1216,Backnang,,,801,,1
+2,000118,1217,Stuttgart Schwabstr.,,,802,,1
+2,000000,1218,Stuttgart Schwabstr.,,,802,,1
+2,000018,1219,Backnang,,,803,,1
+2,000119,1220,Backnang,,,803,,1
+2,000117,1221,Stuttgart Schwabstr.,,,804,,1
+2,000001,1222,Stuttgart Schwabstr.,,,804,,1
+2,000018,1223,Stuttgart Schwabstr.,,,804,,1
+2,000000,1224,Backnang,,,805,,1
+2,000118,1225,Backnang,,,805,,1
+2,000118,1226,Stuttgart Schwabstr.,,,806,,1
+2,000000,1227,Stuttgart Schwabstr.,,,806,,1
+2,000000,1228,Backnang,,,807,,1
+2,000118,1229,Backnang,,,807,,1
+2,000118,1230,Stuttgart Schwabstr.,,,808,,1
+2,000000,1231,Stuttgart Schwabstr.,,,808,,1
+2,000000,1232,Backnang,,,809,,1
+2,000118,1233,Backnang,,,809,,1
+2,000118,1234,Stuttgart Schwabstr.,,,810,,1
+2,000000,1235,Stuttgart Schwabstr.,,,810,,1
+2,000000,1236,Backnang,,,811,,1
+2,000118,1237,Backnang,,,811,,1
+2,000118,1238,Stuttgart Schwabstr.,,,812,,1
+2,000000,1239,Stuttgart Schwabstr.,,,812,,1
+2,000000,1240,Backnang,,,813,,1
+2,000118,1241,Backnang,,,813,,1
+2,000120,1242,Stuttgart Schwabstr.,,,814,,1
+2,000121,1243,Stuttgart Schwabstr.,,,814,,1
+2,000122,1244,Stuttgart Schwabstr.,,,815,,1
+2,000000,1245,Backnang,,,816,,1
+2,000118,1246,Backnang,,,816,,1
+2,000120,1247,Stuttgart Schwabstr.,,,817,,1
+2,000121,1248,Stuttgart Schwabstr.,,,817,,1
+2,000122,1249,Stuttgart Schwabstr.,,,818,,1
+2,000000,1250,Backnang,,,819,,1
+2,000118,1251,Backnang,,,819,,1
+2,000120,1252,Stuttgart Schwabstr.,,,820,,1
+2,000121,1253,Stuttgart Schwabstr.,,,820,,1
+2,000122,1254,Stuttgart Schwabstr.,,,821,,1
+2,000000,1255,Backnang,,,822,,1
+2,000118,1256,Backnang,,,822,,1
+2,000120,1257,Stuttgart Schwabstr.,,,823,,1
+2,000121,1258,Stuttgart Schwabstr.,,,823,,1
+2,000122,1259,Stuttgart Schwabstr.,,,824,,1
+2,000000,1260,Backnang,,,825,,1
+2,000118,1261,Backnang,,,825,,1
+2,000120,1262,Stuttgart Schwabstr.,,,826,,1
+2,000121,1263,Stuttgart Schwabstr.,,,826,,1
+2,000122,1264,Stuttgart Schwabstr.,,,827,,1
+2,000000,1265,Backnang,,,828,,1
+2,000118,1266,Backnang,,,828,,1
+2,000120,1267,Stuttgart Schwabstr.,,,829,,1
+2,000121,1268,Stuttgart Schwabstr.,,,829,,1
+2,000122,1269,Stuttgart Schwabstr.,,,830,,1
+2,000000,1270,Backnang,,,831,,1
+2,000118,1271,Backnang,,,831,,1
+2,000120,1272,Stuttgart Schwabstr.,,,832,,1
+2,000121,1273,Stuttgart Schwabstr.,,,832,,1
+2,000122,1274,Stuttgart Schwabstr.,,,833,,1
+2,000000,1275,Backnang,,,834,,1
+2,000118,1276,Backnang,,,834,,1
+2,000120,1277,Stuttgart Schwabstr.,,,835,,1
+2,000121,1278,Stuttgart Schwabstr.,,,835,,1
+2,000122,1279,Stuttgart Schwabstr.,,,836,,1
+2,000000,1280,Backnang,,,837,,1
+2,000118,1281,Backnang,,,837,,1
+2,000120,1282,Stuttgart Schwabstr.,,,838,,1
+2,000121,1283,Stuttgart Schwabstr.,,,838,,1
+2,000122,1284,Stuttgart Schwabstr.,,,839,,1
+2,000000,1285,Backnang,,,840,,1
+2,000118,1286,Backnang,,,840,,1
+2,000120,1287,Stuttgart Schwabstr.,,,841,,1
+2,000121,1288,Stuttgart Schwabstr.,,,841,,1
+2,000122,1289,Stuttgart Schwabstr.,,,842,,1
+2,000000,1290,Backnang,,,843,,1
+2,000118,1291,Backnang,,,843,,1
+2,000120,1292,Stuttgart Schwabstr.,,,844,,1
+2,000121,1293,Stuttgart Schwabstr.,,,844,,1
+2,000122,1294,Stuttgart Schwabstr.,,,845,,1
+2,000000,1295,Backnang,,,846,,1
+2,000118,1296,Backnang,,,846,,1
+2,000120,1297,Stuttgart Schwabstr.,,,847,,1
+2,000121,1298,Stuttgart Schwabstr.,,,847,,1
+2,000122,1299,Stuttgart Schwabstr.,,,848,,1
+2,000000,1300,Backnang,,,849,,1
+2,000118,1301,Backnang,,,849,,1
+2,000120,1302,Stuttgart Schwabstr.,,,850,,1
+2,000121,1303,Stuttgart Schwabstr.,,,850,,1
+2,000122,1304,Stuttgart Schwabstr.,,,851,,1
+2,000000,1305,Backnang,,,852,,1
+2,000118,1306,Backnang,,,852,,1
+2,000120,1307,Stuttgart Schwabstr.,,,853,,1
+2,000121,1308,Stuttgart Schwabstr.,,,853,,1
+2,000122,1309,Stuttgart Schwabstr.,,,854,,1
+2,000000,1310,Backnang,,,855,,1
+2,000118,1311,Backnang,,,855,,1
+2,000120,1312,Stuttgart Schwabstr.,,,856,,1
+2,000121,1313,Stuttgart Schwabstr.,,,856,,1
+2,000122,1314,Stuttgart Schwabstr.,,,857,,1
+2,000000,1315,Backnang,,,858,,1
+2,000118,1316,Backnang,,,858,,1
+2,000120,1317,Stuttgart Schwabstr.,,,859,,1
+2,000121,1318,Stuttgart Schwabstr.,,,859,,1
+2,000122,1319,Stuttgart Schwabstr.,,,860,,1
+2,000000,1320,Backnang,,,861,,1
+2,000118,1321,Backnang,,,861,,1
+2,000120,1322,Stuttgart Schwabstr.,,,862,,1
+2,000121,1323,Stuttgart Schwabstr.,,,862,,1
+2,000122,1324,Stuttgart Schwabstr.,,,863,,1
+2,000000,1325,Backnang,,,864,,1
+2,000118,1326,Backnang,,,864,,1
+2,000120,1327,Stuttgart Schwabstr.,,,865,,1
+2,000121,1328,Stuttgart Schwabstr.,,,865,,1
+2,000122,1329,Stuttgart Schwabstr.,,,866,,1
+2,000000,1330,Backnang,,,867,,1
+2,000118,1331,Backnang,,,867,,1
+2,000120,1332,Stuttgart Schwabstr.,,,868,,1
+2,000121,1333,Stuttgart Schwabstr.,,,868,,1
+2,000122,1334,Stuttgart Schwabstr.,,,869,,1
+2,000000,1335,Backnang,,,870,,1
+2,000118,1336,Backnang,,,870,,1
+2,000120,1337,Stuttgart Schwabstr.,,,871,,1
+2,000121,1338,Stuttgart Schwabstr.,,,871,,1
+2,000122,1339,Stuttgart Schwabstr.,,,872,,1
+2,000000,1340,Backnang,,,873,,1
+2,000118,1341,Backnang,,,873,,1
+2,000120,1342,Stuttgart Schwabstr.,,,874,,1
+2,000121,1343,Stuttgart Schwabstr.,,,874,,1
+2,000122,1344,Stuttgart Schwabstr.,,,875,,1
+2,000000,1345,Marbach(Neckar),,,876,,1
+2,000120,1346,Stuttgart Schwabstr.,,,877,,1
+2,000121,1347,Stuttgart Schwabstr.,,,877,,1
+2,000122,1348,Stuttgart Schwabstr.,,,878,,1
+2,000000,1349,Backnang,,,879,,1
+2,000118,1350,Backnang,,,879,,1
+2,000120,1351,Stuttgart Schwabstr.,,,880,,1
+2,000121,1352,Stuttgart Schwabstr.,,,880,,1
+2,000122,1353,Stuttgart Schwabstr.,,,881,,1
+2,000023,1354,Marbach(Neckar),,,882,,1
+2,000125,1355,Stuttgart Schwabstr.,,,883,,1
+2,000122,1356,Stuttgart Schwabstr.,,,884,,1
+2,000000,1357,Backnang,,,885,,1
+2,000118,1358,Backnang,,,885,,1
+2,000120,1359,Stuttgart Schwabstr.,,,886,,1
+2,000121,1360,Stuttgart Schwabstr.,,,886,,1
+2,000122,1361,Stuttgart Schwabstr.,,,887,,1
+2,000126,1362,Marbach(Neckar),,,888,,1
+2,000127,1363,Marbach(Neckar),,,889,,1
+2,000128,1364,Stuttgart Schwabstr.,,,890,,1
+2,000122,1365,Stuttgart Schwabstr.,,,891,,1
+2,000127,1366,Backnang,,,892,,1
+2,000129,1367,Backnang,,,893,,1
+2,000130,1368,Backnang,,,893,,1
+2,000131,1369,Stuttgart Schwabstr.,,,894,,1
+2,000132,1370,Stuttgart Schwabstr.,,,894,,1
+2,000133,1371,Stuttgart Schwabstr.,,,895,,1
+2,000122,1372,Stuttgart Schwabstr.,,,896,,1
+2,000126,1373,Marbach(Neckar),,,897,,1
+2,000127,1374,Marbach(Neckar),,,898,,1
+2,000134,1375,Stuttgart Schwabstr.,,,899,,1
+2,000133,1376,Stuttgart Schwabstr.,,,900,,1
+2,000122,1377,Stuttgart Schwabstr.,,,901,,1
+2,000135,1378,Backnang,,,902,,1
+2,000136,1379,Backnang,,,903,,1
+2,000137,1380,Backnang,,,903,,1
+2,000138,1381,Backnang,,,903,,1
+2,000131,1382,Stuttgart Schwabstr.,,,904,,1
+2,000132,1383,Stuttgart Schwabstr.,,,904,,1
+2,000133,1384,Stuttgart Schwabstr.,,,905,,1
+2,000122,1385,Stuttgart Schwabstr.,,,906,,1
+2,000139,1386,Marbach(Neckar),,,907,,1
+2,000135,1387,Marbach(Neckar),,,908,,1
+2,000134,1388,Stuttgart Schwabstr.,,,909,,1
+2,000133,1389,Stuttgart Schwabstr.,,,910,,1
+2,000122,1390,Stuttgart Schwabstr.,,,911,,1
+2,000136,1391,Marbach(Neckar),,,912,,1
+2,000135,1392,Marbach(Neckar),,,913,,1
+2,000019,1393,Stuttgart Schwabstr.,,,914,,1
+2,000051,1394,Marbach(Neckar),,,915,,1
+2,000019,1395,Stuttgart Schwabstr.,,,916,,1
+2,000019,1396,Marbach(Neckar),,,917,,1
+2,000051,1397,Stuttgart Schwabstr.,,,918,,1
+2,000019,1398,Marbach(Neckar),,,919,,1
+2,000019,1399,Stuttgart Schwabstr.,,,920,,1
+2,000019,1400,Marbach(Neckar),,,921,,1
+2,000019,1401,Stuttgart Schwabstr.,,,922,,1
+3,000001,1402,Bietigheim-Bissingen,,,923,,1
+3,000001,1403,Stuttgart Schwabstr.,,,924,,1
+3,000140,1404,Bietigheim-Bissingen,,,925,,1
+3,000141,1405,Bietigheim-Bissingen,,,926,,1
+3,000140,1406,Stuttgart Schwabstr.,,,927,,1
+3,000141,1407,Stuttgart Schwabstr.,,,928,,1
+3,000018,1408,Bietigheim-Bissingen,,,929,,1
+3,000018,1409,Stuttgart Schwabstr.,,,930,,1
+3,000140,1410,Bietigheim-Bissingen,,,931,,1
+3,000141,1411,Bietigheim-Bissingen,,,932,,1
+3,000140,1412,Stuttgart Schwabstr.,,,933,,1
+3,000141,1413,Stuttgart Schwabstr.,,,934,,1
+3,000018,1414,Bietigheim-Bissingen,,,935,,1
+3,000018,1415,Stuttgart Schwabstr.,,,936,,1
+3,000140,1416,Bietigheim-Bissingen,,,937,,1
+3,000141,1417,Bietigheim-Bissingen,,,938,,1
+3,000140,1418,Stuttgart Schwabstr.,,,939,,1
+3,000141,1419,Stuttgart Schwabstr.,,,940,,1
+3,000140,1420,Bietigheim-Bissingen,,,941,,1
+3,000141,1421,Bietigheim-Bissingen,,,942,,1
+3,000140,1422,Stuttgart Schwabstr.,,,943,,1
+3,000141,1423,Stuttgart Schwabstr.,,,944,,1
+3,000140,1424,Bietigheim-Bissingen,,,945,,1
+3,000141,1425,Bietigheim-Bissingen,,,946,,1
+3,000140,1426,Stuttgart Schwabstr.,,,947,,1
+3,000141,1427,Stuttgart Schwabstr.,,,948,,1
+3,000140,1428,Bietigheim-Bissingen,,,949,,1
+3,000141,1429,Bietigheim-Bissingen,,,950,,1
+3,000140,1430,Stuttgart Schwabstr.,,,951,,1
+3,000141,1431,Stuttgart Schwabstr.,,,952,,1
+3,000142,1432,Bietigheim-Bissingen,,,953,,1
+3,000143,1433,Bietigheim-Bissingen,,,954,,1
+3,000140,1434,Stuttgart Schwabstr.,,,955,,1
+3,000141,1435,Stuttgart Schwabstr.,,,956,,1
+3,000142,1436,Bietigheim-Bissingen,,,957,,1
+3,000143,1437,Bietigheim-Bissingen,,,958,,1
+3,000144,1438,Stuttgart Schwabstr.,,,959,,1
+3,000143,1439,Stuttgart Schwabstr.,,,960,,1
+3,000122,1440,Stuttgart Schwabstr.,,,961,,1
+3,000142,1441,Bietigheim-Bissingen,,,962,,1
+3,000143,1442,Bietigheim-Bissingen,,,963,,1
+3,000144,1443,Stuttgart Schwabstr.,,,964,,1
+3,000143,1444,Stuttgart Schwabstr.,,,965,,1
+3,000122,1445,Stuttgart Schwabstr.,,,966,,1
+3,000142,1446,Bietigheim-Bissingen,,,967,,1
+3,000143,1447,Bietigheim-Bissingen,,,968,,1
+3,000144,1448,Stuttgart Schwabstr.,,,969,,1
+3,000143,1449,Stuttgart Schwabstr.,,,970,,1
+3,000122,1450,Stuttgart Schwabstr.,,,971,,1
+3,000142,1451,Bietigheim-Bissingen,,,972,,1
+3,000143,1452,Bietigheim-Bissingen,,,973,,1
+3,000144,1453,Stuttgart Schwabstr.,,,974,,1
+3,000143,1454,Stuttgart Schwabstr.,,,975,,1
+3,000122,1455,Stuttgart Schwabstr.,,,976,,1
+3,000142,1456,Bietigheim-Bissingen,,,977,,1
+3,000143,1457,Bietigheim-Bissingen,,,978,,1
+3,000144,1458,Stuttgart Schwabstr.,,,979,,1
+3,000143,1459,Stuttgart Schwabstr.,,,980,,1
+3,000122,1460,Stuttgart Schwabstr.,,,981,,1
+3,000142,1461,Bietigheim-Bissingen,,,982,,1
+3,000143,1462,Bietigheim-Bissingen,,,983,,1
+3,000144,1463,Stuttgart Schwabstr.,,,984,,1
+3,000143,1464,Stuttgart Schwabstr.,,,985,,1
+3,000122,1465,Stuttgart Schwabstr.,,,986,,1
+3,000142,1466,Bietigheim-Bissingen,,,987,,1
+3,000143,1467,Bietigheim-Bissingen,,,988,,1
+3,000144,1468,Stuttgart Schwabstr.,,,989,,1
+3,000143,1469,Stuttgart Schwabstr.,,,990,,1
+3,000122,1470,Stuttgart Schwabstr.,,,991,,1
+3,000142,1471,Bietigheim-Bissingen,,,992,,1
+3,000143,1472,Bietigheim-Bissingen,,,993,,1
+3,000144,1473,Stuttgart Schwabstr.,,,994,,1
+3,000143,1474,Stuttgart Schwabstr.,,,995,,1
+3,000122,1475,Stuttgart Schwabstr.,,,996,,1
+3,000142,1476,Bietigheim-Bissingen,,,997,,1
+3,000143,1477,Bietigheim-Bissingen,,,998,,1
+3,000144,1478,Stuttgart Schwabstr.,,,999,,1
+3,000143,1479,Stuttgart Schwabstr.,,,1000,,1
+3,000122,1480,Stuttgart Schwabstr.,,,1001,,1
+3,000142,1481,Bietigheim-Bissingen,,,1002,,1
+3,000143,1482,Bietigheim-Bissingen,,,1003,,1
+3,000144,1483,Stuttgart Schwabstr.,,,1004,,1
+3,000143,1484,Stuttgart Schwabstr.,,,1005,,1
+3,000122,1485,Stuttgart Schwabstr.,,,1006,,1
+3,000142,1486,Bietigheim-Bissingen,,,1007,,1
+3,000143,1487,Bietigheim-Bissingen,,,1008,,1
+3,000144,1488,Stuttgart Schwabstr.,,,1009,,1
+3,000143,1489,Stuttgart Schwabstr.,,,1010,,1
+3,000122,1490,Stuttgart Schwabstr.,,,1011,,1
+3,000142,1491,Bietigheim-Bissingen,,,1012,,1
+3,000143,1492,Bietigheim-Bissingen,,,1013,,1
+3,000144,1493,Stuttgart Schwabstr.,,,1014,,1
+3,000143,1494,Stuttgart Schwabstr.,,,1015,,1
+3,000122,1495,Stuttgart Schwabstr.,,,1016,,1
+3,000142,1496,Bietigheim-Bissingen,,,1017,,1
+3,000143,1497,Bietigheim-Bissingen,,,1018,,1
+3,000144,1498,Stuttgart Schwabstr.,,,1019,,1
+3,000143,1499,Stuttgart Schwabstr.,,,1020,,1
+3,000122,1500,Stuttgart Schwabstr.,,,1021,,1
+3,000142,1501,Bietigheim-Bissingen,,,1022,,1
+3,000143,1502,Bietigheim-Bissingen,,,1023,,1
+3,000144,1503,Stuttgart Schwabstr.,,,1024,,1
+3,000143,1504,Stuttgart Schwabstr.,,,1025,,1
+3,000122,1505,Stuttgart Schwabstr.,,,1026,,1
+3,000142,1506,Bietigheim-Bissingen,,,1027,,1
+3,000143,1507,Bietigheim-Bissingen,,,1028,,1
+3,000144,1508,Stuttgart Schwabstr.,,,1029,,1
+3,000143,1509,Stuttgart Schwabstr.,,,1030,,1
+3,000122,1510,Stuttgart Schwabstr.,,,1031,,1
+3,000142,1511,Bietigheim-Bissingen,,,1032,,1
+3,000143,1512,Bietigheim-Bissingen,,,1033,,1
+3,000144,1513,Stuttgart Schwabstr.,,,1034,,1
+3,000143,1514,Stuttgart Schwabstr.,,,1035,,1
+3,000122,1515,Stuttgart Schwabstr.,,,1036,,1
+3,000142,1516,Bietigheim-Bissingen,,,1037,,1
+3,000143,1517,Bietigheim-Bissingen,,,1038,,1
+3,000144,1518,Stuttgart Schwabstr.,,,1039,,1
+3,000143,1519,Stuttgart Schwabstr.,,,1040,,1
+3,000122,1520,Stuttgart Schwabstr.,,,1041,,1
+3,000142,1521,Bietigheim-Bissingen,,,1042,,1
+3,000143,1522,Bietigheim-Bissingen,,,1043,,1
+3,000144,1523,Stuttgart Schwabstr.,,,1044,,1
+3,000143,1524,Stuttgart Schwabstr.,,,1045,,1
+3,000122,1525,Stuttgart Schwabstr.,,,1046,,1
+3,000142,1526,Bietigheim-Bissingen,,,1047,,1
+3,000143,1527,Bietigheim-Bissingen,,,1048,,1
+3,000144,1528,Stuttgart Schwabstr.,,,1049,,1
+3,000143,1529,Stuttgart Schwabstr.,,,1050,,1
+3,000122,1530,Stuttgart Schwabstr.,,,1051,,1
+3,000142,1531,Bietigheim-Bissingen,,,1052,,1
+3,000143,1532,Bietigheim-Bissingen,,,1053,,1
+3,000144,1533,Stuttgart Schwabstr.,,,1054,,1
+3,000143,1534,Stuttgart Schwabstr.,,,1055,,1
+3,000122,1535,Stuttgart Schwabstr.,,,1056,,1
+3,000142,1536,Bietigheim-Bissingen,,,1057,,1
+3,000143,1537,Bietigheim-Bissingen,,,1058,,1
+3,000144,1538,Stuttgart Schwabstr.,,,1059,,1
+3,000143,1539,Stuttgart Schwabstr.,,,1060,,1
+3,000122,1540,Stuttgart Schwabstr.,,,1061,,1
+3,000142,1541,Bietigheim-Bissingen,,,1062,,1
+3,000143,1542,Bietigheim-Bissingen,,,1063,,1
+3,000144,1543,Stuttgart Schwabstr.,,,1064,,1
+3,000143,1544,Stuttgart Schwabstr.,,,1065,,1
+3,000122,1545,Stuttgart Schwabstr.,,,1066,,1
+3,000145,1546,Bietigheim-Bissingen,,,1067,,1
+3,000143,1547,Bietigheim-Bissingen,,,1068,,1
+3,000146,1548,Stuttgart Schwabstr.,,,1069,,1
+3,000143,1549,Stuttgart Schwabstr.,,,1070,,1
+3,000122,1550,Stuttgart Schwabstr.,,,1071,,1
+3,000142,1551,Bietigheim-Bissingen,,,1072,,1
+3,000143,1552,Bietigheim-Bissingen,,,1073,,1
+3,000144,1553,Stuttgart Schwabstr.,,,1074,,1
+3,000143,1554,Stuttgart Schwabstr.,,,1075,,1
+3,000122,1555,Stuttgart Schwabstr.,,,1076,,1
+3,000145,1556,Bietigheim-Bissingen,,,1077,,1
+3,000143,1557,Bietigheim-Bissingen,,,1078,,1
+3,000146,1558,Stuttgart Schwabstr.,,,1079,,1
+3,000143,1559,Stuttgart Schwabstr.,,,1080,,1
+3,000122,1560,Stuttgart Schwabstr.,,,1081,,1
+3,000147,1561,Bietigheim-Bissingen,,,1082,,1
+3,000127,1562,Bietigheim-Bissingen,,,1083,,1
+3,000143,1563,Bietigheim-Bissingen,,,1084,,1
+3,000148,1564,Stuttgart Schwabstr.,,,1085,,1
+3,000143,1565,Stuttgart Schwabstr.,,,1086,,1
+3,000122,1566,Stuttgart Schwabstr.,,,1087,,1
+3,000149,1567,Stuttgart Schwabstr.,,,1088,,1
+3,000150,1568,Bietigheim-Bissingen,,,1089,,1
+3,000127,1569,Bietigheim-Bissingen,,,1090,,1
+3,000143,1570,Bietigheim-Bissingen,,,1091,,1
+3,000151,1571,Stuttgart Schwabstr.,,,1092,,1
+3,000152,1572,Stuttgart Schwabstr.,,,1093,,1
+3,000143,1573,Stuttgart Schwabstr.,,,1094,,1
+3,000122,1574,Stuttgart Schwabstr.,,,1095,,1
+3,000149,1575,Stuttgart Schwabstr.,,,1096,,1
+3,000147,1576,Bietigheim-Bissingen,,,1097,,1
+3,000127,1577,Bietigheim-Bissingen,,,1098,,1
+3,000143,1578,Bietigheim-Bissingen,,,1099,,1
+3,000153,1579,Stuttgart Schwabstr.,,,1100,,1
+3,000152,1580,Stuttgart Schwabstr.,,,1101,,1
+3,000143,1581,Stuttgart Schwabstr.,,,1102,,1
+3,000122,1582,Stuttgart Schwabstr.,,,1103,,1
+3,000149,1583,Stuttgart Schwabstr.,,,1104,,1
+3,000150,1584,Bietigheim-Bissingen,,,1105,,1
+3,000127,1585,Bietigheim-Bissingen,,,1106,,1
+3,000143,1586,Bietigheim-Bissingen,,,1107,,1
+3,000151,1587,Stuttgart Schwabstr.,,,1108,,1
+3,000152,1588,Stuttgart Schwabstr.,,,1109,,1
+3,000143,1589,Stuttgart Schwabstr.,,,1110,,1
+3,000122,1590,Stuttgart Schwabstr.,,,1111,,1
+3,000149,1591,Stuttgart Schwabstr.,,,1112,,1
+3,000154,1592,Bietigheim-Bissingen,,,1113,,1
+3,000155,1593,Bietigheim-Bissingen,,,1114,,1
+3,000135,1594,Bietigheim-Bissingen,,,1115,,1
+3,000156,1595,Stuttgart Schwabstr.,,,1116,,1
+3,000157,1596,Stuttgart Schwabstr.,,,1117,,1
+3,000155,1597,Stuttgart Schwabstr.,,,1118,,1
+3,000158,1598,Stuttgart Schwabstr.,,,1119,,1
+3,000159,1599,Bietigheim-Bissingen,,,1120,,1
+3,000155,1600,Bietigheim-Bissingen,,,1121,,1
+3,000135,1601,Bietigheim-Bissingen,,,1122,,1
+3,000051,1602,Stuttgart Schwabstr.,,,1123,,1
+3,000141,1603,Stuttgart Schwabstr.,,,1124,,1
+3,000051,1604,Bietigheim-Bissingen,,,1125,,1
+3,000141,1605,Bietigheim-Bissingen,,,1126,,1
+3,000051,1606,Stuttgart Schwabstr.,,,1127,,1
+3,000141,1607,Stuttgart Schwabstr.,,,1128,,1
+3,000051,1608,Bietigheim-Bissingen,,,1129,,1
+3,000141,1609,Bietigheim-Bissingen,,,1130,,1
+3,000051,1610,Stuttgart Schwabstr.,,,1131,,1
+3,000141,1611,Stuttgart Schwabstr.,,,1132,,1
+3,000051,1612,Bietigheim-Bissingen,,,1133,,1
+3,000141,1613,Bietigheim-Bissingen,,,1134,,1
+3,000051,1614,Stuttgart Schwabstr.,,,1135,,1
+3,000141,1615,Stuttgart Schwabstr.,,,1136,,1
+3,000051,1616,Bietigheim-Bissingen,,,1137,,1
+3,000141,1617,Bietigheim-Bissingen,,,1138,,1
+4,000000,1618,Weil der Stadt,,,1139,,1
+4,000001,1619,Stuttgart Schwabstr.,,,1140,,1
+4,000018,1620,Weil der Stadt,,,1141,,1
+4,000000,1621,Stuttgart Schwabstr.,,,1142,,1
+4,000000,1622,Weil der Stadt,,,1143,,1
+4,000018,1623,Stuttgart Schwabstr.,,,1144,,1
+4,000018,1624,Weil der Stadt,,,1145,,1
+4,000000,1625,Stuttgart Schwabstr.,,,1146,,1
+4,000000,1626,Weil der Stadt,,,1147,,1
+4,000018,1627,Stuttgart Schwabstr.,,,1148,,1
+4,000018,1628,Weil der Stadt,,,1149,,1
+4,000000,1629,Stuttgart Schwabstr.,,,1150,,1
+4,000000,1630,Weil der Stadt,,,1151,,1
+4,000000,1631,Stuttgart Schwabstr.,,,1152,,1
+4,000000,1632,Weil der Stadt,,,1153,,1
+4,000000,1633,Stuttgart Schwabstr.,,,1154,,1
+4,000000,1634,Weil der Stadt,,,1155,,1
+4,000000,1635,Stuttgart Schwabstr.,,,1156,,1
+4,000000,1636,Weil der Stadt,,,1157,,1
+4,000000,1637,Stuttgart Schwabstr.,,,1158,,1
+4,000000,1638,Weil der Stadt,,,1159,,1
+4,000000,1639,Stuttgart Schwabstr.,,,1160,,1
+4,000000,1640,Weil der Stadt,,,1161,,1
+4,000000,1641,Stuttgart Schwabstr.,,,1162,,1
+4,000000,1642,Weil der Stadt,,,1163,,1
+4,000000,1643,Stuttgart Schwabstr.,,,1164,,1
+4,000000,1644,Weil der Stadt,,,1165,,1
+4,000000,1645,Stuttgart Schwabstr.,,,1166,,1
+4,000000,1646,Weil der Stadt,,,1167,,1
+4,000000,1647,Stuttgart Schwabstr.,,,1168,,1
+4,000000,1648,Weil der Stadt,,,1169,,1
+4,000000,1649,Stuttgart Schwabstr.,,,1170,,1
+4,000000,1650,Weil der Stadt,,,1171,,1
+4,000000,1651,Stuttgart Schwabstr.,,,1172,,1
+4,000000,1652,Weil der Stadt,,,1173,,1
+4,000000,1653,Stuttgart Schwabstr.,,,1174,,1
+4,000000,1654,Weil der Stadt,,,1175,,1
+4,000000,1655,Stuttgart Schwabstr.,,,1176,,1
+4,000000,1656,Weil der Stadt,,,1177,,1
+4,000000,1657,Stuttgart Schwabstr.,,,1178,,1
+4,000000,1658,Weil der Stadt,,,1179,,1
+4,000000,1659,Stuttgart Schwabstr.,,,1180,,1
+4,000000,1660,Weil der Stadt,,,1181,,1
+4,000000,1661,Stuttgart Schwabstr.,,,1182,,1
+4,000000,1662,Weil der Stadt,,,1183,,1
+4,000000,1663,Stuttgart Schwabstr.,,,1184,,1
+4,000000,1664,Weil der Stadt,,,1185,,1
+4,000000,1665,Stuttgart Schwabstr.,,,1186,,1
+4,000000,1666,Weil der Stadt,,,1187,,1
+4,000000,1667,Stuttgart Schwabstr.,,,1188,,1
+4,000000,1668,Weil der Stadt,,,1189,,1
+4,000000,1669,Stuttgart Schwabstr.,,,1190,,1
+4,000000,1670,Weil der Stadt,,,1191,,1
+4,000000,1671,Stuttgart Schwabstr.,,,1192,,1
+4,000000,1672,Weil der Stadt,,,1193,,1
+4,000000,1673,Stuttgart Schwabstr.,,,1194,,1
+4,000000,1674,Weil der Stadt,,,1195,,1
+4,000000,1675,Stuttgart Schwabstr.,,,1196,,1
+4,000000,1676,Weil der Stadt,,,1197,,1
+4,000000,1677,Stuttgart Schwabstr.,,,1198,,1
+4,000000,1678,Weil der Stadt,,,1199,,1
+4,000000,1679,Stuttgart Schwabstr.,,,1200,,1
+4,000000,1680,Weil der Stadt,,,1201,,1
+4,000160,1681,Weil der Stadt,,,1201,,1
+4,000000,1682,Stuttgart Schwabstr.,,,1202,,1
+4,000000,1683,Weil der Stadt,,,1203,,1
+4,000160,1684,Weil der Stadt,,,1203,,1
+4,000023,1685,Stuttgart Schwabstr.,,,1204,,1
+4,000023,1686,Weil der Stadt,,,1205,,1
+4,000161,1687,Weil der Stadt,,,1205,,1
+4,000000,1688,Stuttgart Schwabstr.,,,1206,,1
+4,000000,1689,Weil der Stadt,,,1207,,1
+4,000160,1690,Weil der Stadt,,,1207,,1
+4,000162,1691,Stuttgart Schwabstr.,,,1208,,1
+4,000041,1692,Stuttgart Schwabstr.,,,1208,,1
+4,000041,1693,Weil der Stadt,,,1209,,1
+4,000162,1694,Weil der Stadt,,,1209,,1
+4,000163,1695,Stuttgart Schwabstr.,,,1210,,1
+4,000037,1696,Stuttgart Schwabstr.,,,1210,,1
+4,000037,1697,Weil der Stadt,,,1211,,1
+4,000164,1698,Weil der Stadt,,,1211,,1
+4,000162,1699,Stuttgart Schwabstr.,,,1212,,1
+4,000041,1700,Stuttgart Schwabstr.,,,1212,,1
+4,000041,1701,Weil der Stadt,,,1213,,1
+4,000165,1702,Weil der Stadt,,,1213,,1
+4,000163,1703,Stuttgart Schwabstr.,,,1214,,1
+4,000037,1704,Stuttgart Schwabstr.,,,1214,,1
+4,000046,1705,Weil der Stadt,,,1215,,1
+4,000166,1706,Weil der Stadt,,,1215,,1
+4,000162,1707,Stuttgart Schwabstr.,,,1216,,1
+4,000041,1708,Stuttgart Schwabstr.,,,1216,,1
+4,000074,1709,Weil der Stadt,,,1217,,1
+4,000167,1710,Weil der Stadt,,,1217,,1
+4,000166,1711,Stuttgart Schwabstr.,,,1218,,1
+4,000046,1712,Stuttgart Schwabstr.,,,1218,,1
+4,000019,1713,Weil der Stadt,,,1219,,1
+4,000019,1714,Stuttgart Schwabstr.,,,1220,,1
+4,000051,1715,Weil der Stadt,,,1221,,1
+4,000051,1716,Stuttgart Schwabstr.,,,1222,,1
+4,000019,1717,Weil der Stadt,,,1223,,1
+4,000019,1718,Stuttgart Schwabstr.,,,1224,,1
+4,000019,1719,Weil der Stadt,,,1225,,1
+4,000019,1720,Stuttgart Schwabstr.,,,1226,,1
+4,000168,1721,Weil der Stadt,,,1227,,1
+5,000001,1722,Plochingen,,,1228,,1
+5,000001,1723,Stuttgart Hbf,,,1229,,1
+5,000001,1724,Plochingen,,,1230,,1
+5,000001,1725,Stuttgart Schwabstr.,,,1231,,1
+5,000001,1726,Plochingen,,,1232,,1
+5,000001,1727,Herrenberg,,,1233,,1
+5,000001,1728,Plochingen,,,1234,,1
+5,000001,1729,Herrenberg,,,1235,,1
+5,000001,1730,Plochingen,,,1236,,1
+5,000001,1731,Herrenberg,,,1237,,1
+5,000001,1732,Plochingen,,,1238,,1
+5,000001,1733,Herrenberg,,,1239,,1
+5,000001,1734,Plochingen,,,1240,,1
+5,000001,1735,Herrenberg,,,1241,,1
+5,000001,1736,Plochingen,,,1242,,1
+5,000001,1737,Böblingen,,,1243,,1
+5,000001,1738,Plochingen,,,1244,,1
+5,000001,1739,Herrenberg,,,1245,,1
+5,000001,1740,Plochingen,,,1246,,1
+5,000001,1741,Herrenberg,,,1247,,1
+5,000001,1742,Plochingen,,,1248,,1
+5,000001,1743,Herrenberg,,,1249,,1
+5,000001,1744,Böblingen,,,1250,,1
+5,000001,1745,Plochingen,,,1251,,1
+5,000001,1746,Plochingen,,,1252,,1
+5,000001,1747,Plochingen,,,1253,,1
+5,000001,1748,Stuttgart Schwabstr.,,,1254,,1
+5,000001,1749,Plochingen,,,1255,,1
+5,000001,1750,Stuttgart Schwabstr.,,,1256,,1
+5,000001,1751,Plochingen,,,1257,,1
+5,000001,1752,Herrenberg,,,1258,,1
+5,000001,1753,Plochingen,,,1259,,1
+5,000001,1754,Herrenberg,,,1260,,1
+5,000001,1755,Plochingen,,,1261,,1
+5,000001,1756,Herrenberg,,,1262,,1
+5,000001,1757,Plochingen,,,1263,,1
+5,000001,1758,Böblingen,,,1264,,1
+5,000001,1759,Plochingen,,,1265,,1
+5,000001,1760,Herrenberg,,,1266,,1
+5,000001,1761,Plochingen,,,1267,,1
+5,000001,1762,Herrenberg,,,1268,,1
+5,000001,1763,Plochingen,,,1269,,1
+5,000001,1764,Herrenberg,,,1270,,1
+5,000001,1765,Plochingen,,,1271,,1
+5,000001,1766,Böblingen,,,1272,,1
+5,000001,1767,Plochingen,,,1273,,1
+5,000001,1768,Herrenberg,,,1274,,1
+5,000001,1769,Plochingen,,,1275,,1
+5,000001,1770,Herrenberg,,,1276,,1
+5,000001,1771,Plochingen,,,1277,,1
+5,000001,1772,Herrenberg,,,1278,,1
+5,000001,1773,Plochingen,,,1279,,1
+5,000001,1774,Böblingen,,,1280,,1
+5,000001,1775,Plochingen,,,1281,,1
+5,000001,1776,Herrenberg,,,1282,,1
+5,000001,1777,Plochingen,,,1283,,1
+5,000001,1778,Herrenberg,,,1284,,1
+5,000001,1779,Plochingen,,,1285,,1
+5,000001,1780,Herrenberg,,,1286,,1
+5,000001,1781,Böblingen,,,1287,,1
+5,000020,1782,Esslingen(Neckar),,,1288,,1
+5,000020,1783,Stuttgart Schwabstr.,,,1289,,1
+5,000020,1784,Esslingen(Neckar),,,1290,,1
+5,000020,1785,Stuttgart Schwabstr.,,,1291,,1
+5,000020,1786,Esslingen(Neckar),,,1292,,1
+5,000020,1787,Stuttgart Schwabstr.,,,1293,,1
+5,000020,1788,Esslingen(Neckar),,,1294,,1
+5,000020,1789,Stuttgart Schwabstr.,,,1295,,1
+5,000020,1790,Esslingen(Neckar),,,1296,,1
+5,000020,1791,Stuttgart Schwabstr.,,,1297,,1
+5,000169,1792,Esslingen(Neckar),,,1298,,1
+5,000020,1793,Stuttgart Schwabstr.,,,1299,,1
+5,000020,1794,Esslingen(Neckar),,,1300,,1
+5,000020,1795,Stuttgart Schwabstr.,,,1301,,1
+5,000020,1796,Esslingen(Neckar),,,1302,,1
+5,000169,1797,Stuttgart Schwabstr.,,,1303,,1
+5,000020,1798,Esslingen(Neckar),,,1304,,1
+5,000020,1799,Stuttgart Schwabstr.,,,1305,,1
+5,000020,1800,Esslingen(Neckar),,,1306,,1
+5,000020,1801,Stuttgart Schwabstr.,,,1307,,1
+5,000020,1802,Esslingen(Neckar),,,1308,,1
+5,000020,1803,Stuttgart Schwabstr.,,,1309,,1
+5,000020,1804,Plochingen,,,1310,,1
+5,000020,1805,Stuttgart Schwabstr.,,,1311,,1
+5,000020,1806,Plochingen,,,1312,,1
+5,000020,1807,Stuttgart Schwabstr.,,,1313,,1
+6,000001,1808,Schorndorf,,,1314,,1
+6,000001,1809,Stuttgart-Vaihingen,,,1315,,1
+6,000001,1810,Schorndorf,,,1316,,1
+6,000001,1811,Stuttgart-Vaihingen,,,1317,,1
+6,000001,1812,Schorndorf,,,1318,,1
+6,000001,1813,Stuttgart-Vaihingen,,,1319,,1
+6,000001,1814,Schorndorf,,,1320,,1
+6,000001,1815,Stuttgart-Vaihingen,,,1321,,1
+6,000001,1816,Schorndorf,,,1322,,1
+6,000001,1817,Stuttgart-Vaihingen,,,1323,,1
+6,000001,1818,Schorndorf,,,1324,,1
+6,000001,1819,Stuttgart-Vaihingen,,,1325,,1
+6,000001,1820,Schorndorf,,,1326,,1
+6,000001,1821,Stuttgart-Vaihingen,,,1327,,1
+6,000001,1822,Schorndorf,,,1328,,1
+6,000001,1823,Stuttgart-Vaihingen,,,1329,,1
+6,000001,1824,Schorndorf,,,1330,,1
+6,000001,1825,Stuttgart-Vaihingen,,,1331,,1
+6,000001,1826,Schorndorf,,,1332,,1
+6,000001,1827,Stuttgart-Vaihingen,,,1333,,1
+6,000001,1828,Schorndorf,,,1334,,1
+6,000001,1829,Stuttgart-Vaihingen,,,1335,,1
+6,000001,1830,Stuttgart-Vaihingen,,,1336,,1
+6,000001,1831,Schorndorf,,,1337,,1
+6,000001,1832,Stuttgart-Vaihingen,,,1338,,1
+6,000001,1833,Schorndorf,,,1339,,1
+6,000001,1834,Stuttgart-Vaihingen,,,1340,,1
+6,000001,1835,Schorndorf,,,1341,,1
+6,000001,1836,Stuttgart-Vaihingen,,,1342,,1
+6,000001,1837,Schorndorf,,,1343,,1
+6,000001,1838,Stuttgart-Vaihingen,,,1344,,1
+6,000001,1839,Schorndorf,,,1345,,1
+6,000001,1840,Stuttgart-Vaihingen,,,1346,,1
+6,000001,1841,Schorndorf,,,1347,,1
+6,000001,1842,Stuttgart-Vaihingen,,,1348,,1
+6,000001,1843,Schorndorf,,,1349,,1
+6,000001,1844,Stuttgart-Vaihingen,,,1350,,1
+6,000001,1845,Schorndorf,,,1351,,1
+6,000001,1846,Stuttgart-Vaihingen,,,1352,,1
+6,000001,1847,Schorndorf,,,1353,,1
+6,000001,1848,Stuttgart-Vaihingen,,,1354,,1
+6,000001,1849,Schorndorf,,,1355,,1
+6,000001,1850,Stuttgart-Vaihingen,,,1356,,1
+6,000001,1851,Schorndorf,,,1357,,1
+6,000001,1852,Stuttgart-Vaihingen,,,1358,,1
+6,000001,1853,Schorndorf,,,1359,,1
+6,000001,1854,Stuttgart-Vaihingen,,,1360,,1
+6,000001,1855,Schorndorf,,,1361,,1
+6,000001,1856,Stuttgart-Vaihingen,,,1362,,1
+6,000001,1857,Schorndorf,,,1363,,1
+6,000001,1858,Stuttgart-Vaihingen,,,1364,,1
+6,000001,1859,Schorndorf,,,1365,,1
+6,000001,1860,Stuttgart-Vaihingen,,,1366,,1
+6,000001,1861,Schorndorf,,,1367,,1
+5,000170,1862,Stuttgart Schwabstr.,,,1368,,1
+1,000055,1863,Stuttgart Flughafen/Messe,,,1369,,1
+7,000168,1864,Renningen,,,1370,,1
+5,000170,1865,Esslingen(Neckar),,,1371,,1
+1,000055,1866,Stuttgart-Bad Cannstatt,,,1372,,1
+7,000168,1867,Böblingen,,,1373,,1
+5,000170,1868,Stuttgart Schwabstr.,,,1374,,1
+1,000055,1869,Stuttgart Flughafen/Messe,,,1375,,1
+7,000168,1870,Renningen,,,1376,,1
+5,000170,1871,Esslingen(Neckar),,,1377,,1
+1,000055,1872,Stuttgart-Bad Cannstatt,,,1378,,1
+7,000168,1873,Böblingen,,,1379,,1
+5,000170,1874,Stuttgart Schwabstr.,,,1380,,1
+1,000055,1875,Stuttgart Flughafen/Messe,,,1381,,1
+7,000168,1876,Renningen,,,1382,,1
+5,000170,1877,Esslingen(Neckar),,,1383,,1
+1,000055,1878,Stuttgart-Bad Cannstatt,,,1384,,1
+7,000168,1879,Böblingen,,,1385,,1
+5,000170,1880,Stuttgart Schwabstr.,,,1386,,1
+1,000055,1881,Stuttgart Flughafen/Messe,,,1387,,1
+7,000168,1882,Renningen,,,1388,,1
+5,000170,1883,Esslingen(Neckar),,,1389,,1
+1,000055,1884,Stuttgart-Bad Cannstatt,,,1390,,1
+7,000168,1885,Böblingen,,,1391,,1
+5,000170,1886,Stuttgart Schwabstr.,,,1392,,1
+1,000055,1887,Stuttgart Flughafen/Messe,,,1393,,1
+7,000168,1888,Renningen,,,1394,,1
+5,000170,1889,Esslingen(Neckar),,,1395,,1
+1,000055,1890,Stuttgart-Bad Cannstatt,,,1396,,1
+7,000168,1891,Böblingen,,,1397,,1
+5,000170,1892,Stuttgart Schwabstr.,,,1398,,1
+1,000055,1893,Stuttgart Flughafen/Messe,,,1399,,1
+7,000168,1894,Renningen,,,1400,,1
+5,000170,1895,Esslingen(Neckar),,,1401,,1
+1,000055,1896,Stuttgart-Bad Cannstatt,,,1402,,1
+7,000168,1897,Böblingen,,,1403,,1
+5,000170,1898,Stuttgart Schwabstr.,,,1404,,1
+1,000055,1899,Stuttgart Flughafen/Messe,,,1405,,1
+7,000168,1900,Renningen,,,1406,,1
+5,000170,1901,Esslingen(Neckar),,,1407,,1
+1,000055,1902,Stuttgart-Bad Cannstatt,,,1408,,1
+7,000168,1903,Böblingen,,,1409,,1
+5,000170,1904,Stuttgart Schwabstr.,,,1410,,1
+1,000055,1905,Stuttgart Flughafen/Messe,,,1411,,1
+7,000168,1906,Renningen,,,1412,,1
+5,000170,1907,Esslingen(Neckar),,,1413,,1
+1,000055,1908,Stuttgart-Bad Cannstatt,,,1414,,1
+7,000168,1909,Böblingen,,,1415,,1
+5,000170,1910,Stuttgart Schwabstr.,,,1416,,1
+1,000055,1911,Stuttgart Flughafen/Messe,,,1417,,1
+7,000168,1912,Renningen,,,1418,,1
+5,000170,1913,Esslingen(Neckar),,,1419,,1
+1,000055,1914,Stuttgart-Bad Cannstatt,,,1420,,1
+7,000168,1915,Böblingen,,,1421,,1
+5,000170,1916,Stuttgart Schwabstr.,,,1422,,1
+1,000055,1917,Stuttgart Flughafen/Messe,,,1423,,1
+7,000168,1918,Renningen,,,1424,,1
+5,000170,1919,Esslingen(Neckar),,,1425,,1
+1,000055,1920,Stuttgart-Bad Cannstatt,,,1426,,1
+7,000168,1921,Böblingen,,,1427,,1
+5,000170,1922,Stuttgart Schwabstr.,,,1428,,1
+1,000055,1923,Stuttgart Flughafen/Messe,,,1429,,1
+7,000168,1924,Renningen,,,1430,,1
+5,000170,1925,Plochingen,,,1431,,1
+1,000055,1926,Stuttgart-Bad Cannstatt,,,1432,,1
+7,000168,1927,Böblingen,,,1433,,1
+5,000170,1928,Stuttgart Schwabstr.,,,1434,,1
+1,000055,1929,Stuttgart Flughafen/Messe,,,1435,,1
+7,000168,1930,Renningen,,,1436,,1
+5,000170,1931,Plochingen,,,1437,,1
+1,000055,1932,Stuttgart-Bad Cannstatt,,,1438,,1
+7,000168,1933,Böblingen,,,1439,,1
+1,000055,1934,Stuttgart Flughafen/Messe,,,1440,,1
+7,000168,1935,Renningen,,,1441,,1
+1,000055,1936,Stuttgart-Bad Cannstatt,,,1442,,1
+7,000168,1937,Böblingen,,,1443,,1
+1,000055,1938,Stuttgart Flughafen/Messe,,,1444,,1
+7,000168,1939,Renningen,,,1445,,1
+1,000055,1940,Stuttgart-Bad Cannstatt,,,1446,,1
+7,000168,1941,Böblingen,,,1447,,1
+1,000055,1942,Stuttgart Flughafen/Messe,,,1448,,1
+7,000168,1943,Renningen,,,1449,,1
+4,000001,1944,Weil der Stadt,,,1450,,1
+4,000001,1945,Weil der Stadt,,,1451,,1
+4,000001,1946,Weil der Stadt,,,1452,,1
+4,000001,1947,Weil der Stadt,,,1453,,1
+4,000001,1948,Weil der Stadt,,,1454,,1
+4,000001,1949,Weil der Stadt,,,1455,,1
+4,000001,1950,Weil der Stadt,,,1456,,1
+4,000001,1951,Weil der Stadt,,,1457,,1
+4,000001,1952,Weil der Stadt,,,1458,,1
+4,000001,1953,Weil der Stadt,,,1459,,1
+4,000001,1954,Weil der Stadt,,,1460,,1
+4,000001,1955,Weil der Stadt,,,1461,,1
+4,000001,1956,Weil der Stadt,,,1462,,1
+4,000001,1957,Weil der Stadt,,,1463,,1
+4,000001,1958,Weil der Stadt,,,1464,,1
+4,000001,1959,Weil der Stadt,,,1465,,1
+4,000001,1960,Weil der Stadt,,,1466,,1
+4,000001,1961,Weil der Stadt,,,1467,,1
+4,000001,1962,Weil der Stadt,,,1468,,1
+4,000001,1963,Weil der Stadt,,,1469,,1
+4,000001,1964,Weil der Stadt,,,1470,,1
+4,000001,1965,Weil der Stadt,,,1471,,1
+4,000001,1966,Weil der Stadt,,,1472,,1
+4,000001,1967,Weil der Stadt,,,1473,,1
+4,000001,1968,Weil der Stadt,,,1474,,1
+4,000001,1969,Weil der Stadt,,,1475,,1
+4,000001,1970,Weil der Stadt,,,1476,,1
+4,000001,1971,Weil der Stadt,,,1477,,1
+1,000171,1972,Stuttgart Flughafen/Messe,,,1478,,1
+1,000172,1973,Stuttgart Flughafen/Messe,,,1479,,1
+1,000171,1974,Backnang,,,1480,,1
+1,000171,1975,Stuttgart Flughafen/Messe,,,1481,,1
+1,000172,1976,Stuttgart Flughafen/Messe,,,1482,,1
+1,000171,1977,Backnang,,,1483,,1
+1,000171,1978,Stuttgart Flughafen/Messe,,,1484,,1
+1,000172,1979,Stuttgart Flughafen/Messe,,,1485,,1
+1,000171,1980,Backnang,,,1486,,1
+1,000171,1981,Stuttgart Flughafen/Messe,,,1487,,1
+1,000172,1982,Stuttgart Flughafen/Messe,,,1488,,1
+1,000171,1983,Backnang,,,1489,,1
+1,000172,1984,Backnang,,,1490,,1
+1,000172,1985,Stuttgart Flughafen/Messe,,,1491,,1
+1,000171,1986,Backnang,,,1492,,1
+1,000172,1987,Backnang,,,1493,,1
+1,000172,1988,Stuttgart Flughafen/Messe,,,1494,,1
+1,000171,1989,Backnang,,,1495,,1
+1,000172,1990,Backnang,,,1496,,1
+7,000168,1991,Renningen,,,1497,,1
+1,000171,1992,Backnang,,,1498,,1
+7,000168,1993,Böblingen,,,1499,,1
+7,000168,1994,Renningen,,,1500,,1
+5,000001,1995,Stuttgart-Vaihingen,,,1501,,1
+5,000001,1996,Stuttgart-Vaihingen,,,1502,,1
+6,000001,1997,Stuttgart Schwabstr.,,,1503,,1
+1,000002,1998,Stuttgart Flughafen/Messe,,,1504,,1
+1,000001,1999,Stuttgart Flughafen/Messe,,,1504,,1
+2,000001,2000,Stuttgart Schwabstr.,,,1505,,1
+3,000173,2001,Stuttgart Schwabstr.,,,1506,,1
+3,000174,2002,Stuttgart Schwabstr.,,,1507,,1
+4,000001,2003,Stuttgart Schwabstr.,,,1508,,1
+7,000001,2004,Böblingen,,,1509,,1
+7,000001,2005,Böblingen,,,1510,,1
+7,000001,2006,Böblingen,,,1511,,1
+7,000001,2007,Böblingen,,,1512,,1
+7,000001,2008,Böblingen,,,1513,,1
+7,000001,2009,Böblingen,,,1514,,1
+7,000001,2010,Böblingen,,,1515,,1
+7,000001,2011,Böblingen,,,1516,,1
+7,000001,2012,Böblingen,,,1517,,1
+7,000001,2013,Böblingen,,,1518,,1
+7,000001,2014,Böblingen,,,1519,,1
+7,000001,2015,Böblingen,,,1520,,1
+7,000001,2016,Böblingen,,,1521,,1
+7,000001,2017,Böblingen,,,1522,,1
+7,000001,2018,Böblingen,,,1523,,1
+7,000001,2019,Böblingen,,,1524,,1
+7,000001,2020,Böblingen,,,1525,,1
+7,000001,2021,Böblingen,,,1526,,1
+7,000001,2022,Böblingen,,,1527,,1
+7,000001,2023,Böblingen,,,1528,,1
+7,000001,2024,Böblingen,,,1529,,1
+7,000001,2025,Böblingen,,,1530,,1
+7,000001,2026,Böblingen,,,1531,,1
+7,000001,2027,Böblingen,,,1532,,1
+7,000001,2028,Böblingen,,,1533,,1
+7,000001,2029,Böblingen,,,1534,,1
+7,000001,2030,Böblingen,,,1535,,1
+7,000001,2031,Böblingen,,,1536,,1
+4,000001,2032,Stuttgart Schwabstr.,,,1537,,1
+4,000001,2033,Stuttgart Schwabstr.,,,1538,,1
+4,000001,2034,Stuttgart Schwabstr.,,,1539,,1
+4,000001,2035,Stuttgart Schwabstr.,,,1540,,1
+4,000001,2036,Stuttgart Schwabstr.,,,1541,,1
+4,000001,2037,Stuttgart Schwabstr.,,,1542,,1
+4,000001,2038,Stuttgart Schwabstr.,,,1543,,1
+4,000001,2039,Stuttgart Schwabstr.,,,1544,,1
+4,000001,2040,Stuttgart Schwabstr.,,,1545,,1
+4,000001,2041,Stuttgart Schwabstr.,,,1546,,1
+4,000001,2042,Stuttgart Schwabstr.,,,1547,,1
+4,000001,2043,Stuttgart Schwabstr.,,,1548,,1
+4,000001,2044,Stuttgart Schwabstr.,,,1549,,1
+4,000001,2045,Stuttgart Schwabstr.,,,1550,,1
+4,000001,2046,Stuttgart Schwabstr.,,,1551,,1
+4,000001,2047,Stuttgart Schwabstr.,,,1552,,1
+4,000001,2048,Stuttgart Schwabstr.,,,1553,,1
+4,000001,2049,Stuttgart Schwabstr.,,,1554,,1
+4,000001,2050,Stuttgart Schwabstr.,,,1555,,1
+4,000001,2051,Stuttgart Schwabstr.,,,1556,,1
+4,000001,2052,Stuttgart Schwabstr.,,,1557,,1
+4,000001,2053,Stuttgart Schwabstr.,,,1558,,1
+4,000001,2054,Stuttgart Schwabstr.,,,1559,,1
+4,000001,2055,Stuttgart Schwabstr.,,,1560,,1
+4,000001,2056,Stuttgart Schwabstr.,,,1561,,1
