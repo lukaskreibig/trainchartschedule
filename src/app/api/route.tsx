@@ -9,8 +9,6 @@ import {
 import { NextResponse } from 'next/server';
 import Database from 'better-sqlite3';
 
-const tmpDir = '/tmp';
-
 const db = new Database('/tmp/gtfs-data.db', { verbose: console.log });
 db.pragma('journal_mode = WAL');
 
@@ -27,8 +25,6 @@ const config = {
 export async function POST() {
   await importGtfs(config);
 
-  // const routes = getRoutes();
-  // console.log("routes", routes)
   const stops = getStops();
   const trips = getTrips();
   const stoptimes = getStoptimes();
