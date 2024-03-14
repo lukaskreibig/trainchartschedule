@@ -22,7 +22,7 @@ const config = {
   ],
 };
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
+export async function POST() {
   await importGtfs(config);
 
   // const routes = getRoutes();
