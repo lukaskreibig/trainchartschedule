@@ -63,7 +63,6 @@ const TrainScheduleChart: React.FC = () => {
     }
     if (data !== null) {
       const processedData = processData(data);
-      console.log('processedData', processedData);
       setProcessedData(processedData);
     }
     setLoading(false);
