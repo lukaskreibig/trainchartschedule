@@ -27,13 +27,9 @@ export async function POST() {
   // const routes = getRoutes();
   // console.log("routes", routes)
   const stops = getStops();
-  console.log('stops', stops);
   const trips = getTrips();
-  console.log('trips', trips);
   const stoptimes = getStoptimes();
-  console.log('stoptimes', stoptimes);
   const calendars = getCalendars();
-  console.log('calendars', calendars);
 
   return NextResponse.json({ stops, trips, stoptimes, calendars });
 }
