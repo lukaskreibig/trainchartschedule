@@ -1,7 +1,6 @@
 // pages/api/importGtfs.js
 import {
   getCalendars,
-  getRoutes,
   getStops,
   getStoptimes,
   getTrips,
