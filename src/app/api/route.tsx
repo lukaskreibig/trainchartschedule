@@ -9,11 +9,11 @@ import {
 import { NextResponse } from 'next/server';
 import Database from 'better-sqlite3';
 
-const db = new Database('/tmp/gtfs-data.db', { verbose: console.log });
+const db = new Database('src/app/api/gtfsdb/gtfs-data.db', { verbose: console.log });
 db.pragma('journal_mode = WAL');
 
 const config = {
-  sqlitePath: 'tmp/gtfs-data.db',
+  sqlitePath: 'src/app/api/gtfsdb/gtfs-data.db',
   agencies: [
     {
       path: 'src/app/api/gtfs/',
