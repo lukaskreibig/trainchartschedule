@@ -8,12 +8,15 @@ import {
 } from 'gtfs';
 import { NextResponse } from 'next/server';
 import Database from 'better-sqlite3';
-import { NextApiRequest, NextApiResponse } from 'next';
 
-const db = new Database('gtfs-data.db', { verbose: console.log });
+const tmpDir = '/tmp';
+
+const db = new Database('/tmp/gtfs-data.db', { verbose: console.log });
 db.pragma('journal_mode = WAL');
 
+
 const config = {
+  sqlitePath: 'tmp/gtfs-data.db',
   agencies: [
     {
       path: 'src/app/api/gtfs/',
