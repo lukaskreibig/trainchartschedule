@@ -14,6 +14,17 @@ interface RoutesSelectProps {
   onChange: (event: SelectChangeEvent<string[]>) => void;
 }
 
+/**
+ * `RoutesSelect` is a component for selecting multiple routes from a dropdown list.
+ * It utilizes Material-UI's `Select` component for rendering the dropdown and
+ * displays the selected items using `Chip` components within a `Box`.
+ *
+ * @component
+ * @param {RoutesSelectProps} props - The props for the RoutesSelect component.
+ * @param {string[]} props.routes - Array of route options to display in the select dropdown.
+ * @param {string[]} props.selectedRoutes - Array of currently selected routes.
+ * @param {(event: SelectChangeEvent<string[]>) => void} props.onChange - Handler for when the selection changes.
+ */
 const RoutesSelect: React.FC<RoutesSelectProps> = ({
   routes,
   selectedRoutes,

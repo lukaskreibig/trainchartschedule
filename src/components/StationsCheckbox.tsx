@@ -6,6 +6,15 @@ interface StationsCheckboxProps {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
+/**
+ * `StationsCheckbox` is a component for toggling the visibility of stations on a chart.
+ * It renders a checkbox that allows users to show or hide stations.
+ *
+ * @component
+ * @param {StationsCheckboxProps} props - The props for the StationsCheckbox component.
+ * @param {boolean} props.checked - Indicates whether the checkbox is checked.
+ * @param {(event: React.ChangeEvent<HTMLInputElement>) => void} props.onChange - Handler for checkbox state change.
+ */
 const StationsCheckbox: React.FC<StationsCheckboxProps> = ({
   checked,
   onChange,

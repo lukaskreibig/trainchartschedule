@@ -4,7 +4,7 @@ import { ID3Point, IProcessedData } from '@/app/types';
 import { CHART_HEIGHT, CHART_MARGINS, CHART_WIDTH } from '@/app/constants';
 import { Box } from '@mui/material';
 
- /**
+/**
  * ChartProps defines the properties expected by the Chart component.
  * @prop {IProcessedData[] | null} processedData - Array of processed data objects or null.
  * @prop {boolean} stationsVisible - Determines the visibility of stations on the chart.
@@ -47,6 +47,7 @@ export const Chart: React.FC<ChartProps> = ({
    */
 
   const createChart = () => {
+    // Margin, width, and height setup for the chart
     const margin = CHART_MARGINS;
     const width = CHART_WIDTH;
     const height = CHART_HEIGHT;
@@ -84,8 +85,10 @@ export const Chart: React.FC<ChartProps> = ({
       )
       .range([0, height]);
 
+    // Draw the x-axis at the top of the chart
     const xAxis = d3.axisTop(xScale);
 
+    // Add a grid to the x-axis for better readability
     const xGrid = d3
       .axisTop(xScale)
       .tickSize(-height) // Use the negative height to extend the lines downward
@@ -154,14 +157,10 @@ export const Chart: React.FC<ChartProps> = ({
       .scaleOrdinal(d3.schemeCategory10)
       .domain(processedData!.map(d => d.route_id));
 
-    // const lineGenerator = d3.line()
-    //   .x(d => xScale(d.stop_name) + xScale.bandwidth() / 2)
-    //   .y(d => yScale(d.time))
-    //   .curve(d3.curveMonotoneX);
     const lineGenerator = d3
       .line<ID3Point>()
-      .x(d => xScale(d.stop_name!)! + xScale.bandwidth() / 2) // Ensure stop_name is not null or handle it appropriately
-      .y(d => yScale(d.time!)) // ID3Point includes time, so this is valid
+      .x(d => xScale(d.stop_name!)! + xScale.bandwidth() / 2)
+      .y(d => yScale(d.time!))
       .curve(d3.curveLinear);
 
     processedData!.forEach(trip => {
@@ -205,24 +204,22 @@ export const Chart: React.FC<ChartProps> = ({
     stationsVisible
       ? processedData!.forEach(trip => {
           trip.stops.forEach(stop => {
-            // const circles = svg.selectAll('.stop-circle')
             svg
               .append('circle')
-              // .attr('class', 'stop-circle')
               .attr(
                 'cx',
                 () => xScale(stop.stop_name!)! + xScale.bandwidth() / 2
               )
               .attr('cy', () => yScale(stop.originalArrivalTime))
               .attr('r', 3)
-              .attr('fill', 'rgba(0,0,0,0.5)') // Use rgba for transparency
-              .attr('stroke', 'white') // White color around the dot
-              .attr('stroke-width', '2px'); // Width of the white stroke to create the space
+              .attr('fill', 'rgba(0,0,0,0.5)')
+              .attr('stroke', 'white')
+              .attr('stroke-width', '2px');
           });
         })
       : null;
 
-    // Tooltip setup
+    // Create and configure the tooltip group, initially hidden
     const tooltip = svg
       .append('g')
       .attr('class', 'tooltip')
@@ -233,16 +230,22 @@ export const Chart: React.FC<ChartProps> = ({
       .attr('fill', 'white')
       .attr('stroke', '#000');
 
+    // Append text to display the station name within the tooltip
     const text = tooltip
       .append('text')
       .style('font', '10px sans-serif')
-      .attr('fill', 'black'); // Set text fill to black if needed
+      .attr('fill', 'black');
 
     const line1 = text.append('tspan').style('font-weight', 'bold');
     const line2 = text.append('tspan').attr('x', 0).attr('dy', '1.1em');
     const line3 = text.append('tspan').attr('x', 0).attr('dy', '1.1em');
     const line4 = text.append('tspan').attr('x', 0).attr('dy', '1.1em');
 
+    /**
+     * Generates an array of stops with calculated x and y coordinates for D3 plotting.
+     * @param {IProcessedData[]} processedData - The data processed for visualization.
+     * @returns {Array} Array of stops with added x and y coordinates for chart plotting.
+     */
     const allStops = processedData!.flatMap(trip =>
       trip.stops.map(stop => ({
         ...stop,
@@ -251,7 +254,9 @@ export const Chart: React.FC<ChartProps> = ({
       }))
     );
 
-    // Create the Voronoi diagram
+    // Creates a Voronoi diagram for improved interaction. It uses D3's Delaunay triangulation
+    // on all stop coordinates to efficiently handle mouseover events. The diagram spans
+    // the entire chart area, from [0, 0] to [width, height], to cover all plotted stops.
     const voronoi = d3.Delaunay.from(
       allStops,
       d => d.x,
@@ -268,12 +273,9 @@ export const Chart: React.FC<ChartProps> = ({
       .attr('d', (d, i) => voronoi.renderCell(i))
       .style('fill', 'none')
       .style('pointer-events', 'all')
+      // Interaction: Show tooltip on mouseover and hide on mouseout
       .on('mouseout', () => tooltip.style('display', 'none'))
       .on('mouseover', (event, d) => {
-        // Show the tooltip on mouseover
-
-        // console.log("d",d)
-
         tooltip.style('display', null);
         line1.text(`S ${d.route_id} nach ${d.trip_headsign}`);
         line2.text(`${d.stop_name}`);

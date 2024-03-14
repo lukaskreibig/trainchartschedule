@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from '@mui/material/Container';
 import * as d3 from 'd3';
 import { type SelectChangeEvent } from '@mui/material';
@@ -37,13 +37,6 @@ const TrainScheduleChart: React.FC = () => {
   const [tempTimeRange, setTempTimeRange] = useState<number | number[]>(
     timeRange
   );
-
-  const handleSliderChangeCommitted = (
-    event: Event | React.SyntheticEvent<Element, Event>,
-    newValue: number | number[]
-  ): void => {
-    setTimeRange(newValue as number[]);
-  };
 
   /**
    * Handles changes to the stations checkbox, toggling the visibility of stations on the chart.
@@ -154,9 +147,6 @@ const TrainScheduleChart: React.FC = () => {
    * @param {IProcessedData[]} tripsData - The processed data array, where each item represents a trip
    *                                        with its stops ready for visualization.
    */
-  // const createChart = (tripsData: IProcessedData[]): void => {
-
-  // };
 
   return (
     <Container maxWidth="lg">
