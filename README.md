@@ -46,6 +46,6 @@ npm install
 # Run:
 npm run dev
 
-# Run Test Suites:
+# Run Test Suites (postgres version only):
 npm run test
 
