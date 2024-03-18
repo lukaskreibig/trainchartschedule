@@ -29,7 +29,7 @@ export interface IStop {
   platform_code: string | null;
 }
 
-interface IStopTime {
+export interface IStopTime {
   trip_id: string;
   arrival_time: string;
   arrival_timestamp: number;
@@ -47,12 +47,14 @@ interface IStopTime {
 }
 
 export interface IData {
+  tripsWithStopTimes(tripsWithStopTimes: any): unknown;
   trips: ITrip[];
   stops: IStop[];
   stoptimes: IStopTime[];
 }
 
 export interface IProcessedData {
+  route_short_name: string;
   route_id: string;
   service_id: string;
   trip_id: string;
@@ -99,6 +101,7 @@ export interface IProcessedStop {
   route_id: string;
   originalArrivalTime: Date;
   originalDepartureTime: Date;
+  route_short_name: string;
 }
 
 export interface ID3Point {

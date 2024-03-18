@@ -1,15 +1,15 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import Container from '@mui/material/Container';
-import * as d3 from 'd3';
 import { type SelectChangeEvent } from '@mui/material';
-import { IData, IProcessedData, IStop } from '@/app/types';
+import { IProcessedData } from '@/app/types';
 import { routes } from './constants';
 import { OVERLAY_STYLES } from './constants';
 import SliderControl from '@/components/SliderControl';
 import StationsCheckbox from '@/components/StationsCheckbox';
 import RoutesSelect from '@/components/RoutesSelect';
 import Chart from '@/components/Chart';
+import * as d3 from 'd3';
 
 /**
  * The TrainScheduleChart component displays a visual chart of train schedules.
@@ -17,13 +17,15 @@ import Chart from '@/components/Chart';
  */
 const TrainScheduleChart: React.FC = () => {
   // State hooks to manage component state
+  const [fetchData, setFetchData] = useState<IProcessedData[] | null>(null);
   const [loading, setLoading] = useState<boolean>(false); // Tracks data loading status
-  const [selectedRoutes, setSelectedRoutes] = useState<string[]>(['S1']); // Selected routes for filtering
+  const [selectedRoutes, setSelectedRoutes] = useState<string[]>(['S3']); // Selected routes for filtering
   const [stations, setStations] = useState<boolean>(true); // Toggle to show/hide stations on the chart
   const [processedData, setProcessedData] = useState<IProcessedData[] | null>(
     null
   );
 
+  const parseTime = d3.timeParse('%H:%M:%S');
   const now = new Date();
   const currentHour = now.getHours();
   // Calculate an end hour for the initial time range, ensuring it doesn't exceed 24 hours
@@ -38,40 +40,48 @@ const TrainScheduleChart: React.FC = () => {
     timeRange
   );
 
+  // The time range selected by the user is converted to seconds to match the dataset's format.
+  const startSeconds = timeRange[0] * 3600;
+  const endSeconds = timeRange[1] * 3600;
+
   /**
-   * Handles changes to the stations checkbox, toggling the visibility of stations on the chart.
-   * @param event The event object containing the new checkbox state.
+   * Converts a time string to the total number of seconds since the start of the day.
+   *
+   * @param {string} timeString - The time string in the format "HH:MM:SS".
+   * @returns {number} The total number of seconds since the start of the day.
    */
-  const handleCheckbox = (event: React.ChangeEvent<HTMLInputElement>): void => {
-    setStations(event.target.checked);
+  const timeStringToSeconds = (timeString: string) => {
+    const [hours, minutes, seconds] = timeString.split(':').map(Number);
+    return hours * 3600 + minutes * 60 + seconds;
   };
 
   /**
    * Fetches GTFS (General Transit Feed Specification) data for processing and visualization.
    * This function simulates a data fetch operation and processes the data for D3 charting.
    */
-  const fetchGTFSData = async (): Promise<void> => {
-    setLoading(true);
-    let data: IData | null;
-    try {
-      const response = await fetch('/api', { method: 'POST' });
-      data = await response.json();
-    } catch (error) {
-      console.error('Failed to load GTFS data:', error);
-      data = null;
-    } finally {
-    }
-    if (data !== null) {
-      const processedData = processData(data);
-      setProcessedData(processedData);
-    }
-    setLoading(false);
-  };
-
-  // Fetch GTFS data when component mounts or when filters change
   useEffect(() => {
+    const fetchGTFSData = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch('/api/importgtfs', { method: 'GET' });
+        const data = await response.json();
+        setFetchData(data.tripsWithStopTimes); // Speichern der gefetchten Daten
+        processData(data.tripsWithStopTimes); // Direkte Verarbeitung der Daten
+      } catch (error) {
+        console.error('Failed to load GTFS data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
     fetchGTFSData();
-  }, [selectedRoutes, stations, timeRange]);
+  }, []);
+
+  useEffect(() => {
+    if (fetchData) {
+      processData(fetchData);
+    }
+  }, [fetchData, selectedRoutes, timeRange]);
 
   /**
    * Transforms raw GTFS data into a structure suitable for visualization with D3.
@@ -79,63 +89,85 @@ const TrainScheduleChart: React.FC = () => {
    * and then filtering these based on the selected time range. The result is an array of trips
    * each containing a list of stops with enriched information for charting.
    *
-   * @param {IData} data - The raw GTFS data including trips, stops, and stop times.
+   * @param {IProcessedData[]} data - The raw GTFS data including trips, stops, and stop times.
    * @returns {IProcessedData[]} - An array of processed data, with each trip containing a list of stops
    *                                and associated data ready for visualization.
    */
-  const processData = ({
-    stops,
-    trips,
-    stoptimes,
-  }: IData): IProcessedData[] => {
-    // Mapping stops for quick access by their ID, enhancing lookup efficiency.
-    const stopsById: Record<string, IStop> = stops.reduce(
-      (acc: Record<string, IStop>, stop) => {
-        acc[stop.stop_id] = stop;
-        return acc;
-      },
-      {} satisfies Record<string, IStop>
-    );
-    // Slicing the route prefix and filtering trips by the selected routes
-    const routesSliced = selectedRoutes.map(str => str.slice(1));
-    // Filter trips by selected routes. This is an initial filtration step to reduce the dataset.
-    const filteredTrips = trips.filter(trip =>
-      routesSliced.includes(trip.route_id)
-    );
-
-    // The time range selected by the user is converted to seconds to match the dataset's format.
-    const startSeconds = timeRange[0] * 3600;
-    const endSeconds = timeRange[1] * 3600;
-
-    // Further processing to map stop times to each trip, including sorting and filtering by time range.
-    const tripsWithStoptimes = filteredTrips.map(trip => {
-      // Filter and sort the stop times for this trip, then map additional stop information.
-      const tripStoptimes = stoptimes
-        .filter(st => st.trip_id === trip.trip_id)
-        .sort((a, b) => a.stop_sequence - b.stop_sequence)
-        .map(st => {
-          const stopInfo = stopsById[st.stop_id];
-          return {
-            ...st,
-            ...stopInfo,
-            // Convert times into JavaScript Date objects for easier manipulation and formatting.
-            originalArrivalTime: d3.timeParse('%H:%M:%S')(st.arrival_time)!,
-            originalDepartureTime: d3.timeParse('%H:%M:%S')(st.departure_time)!,
-            arrival_timestamp: st.arrival_timestamp,
-            departure_timestamp: st.departure_timestamp,
+  const processData = useCallback(
+    (data: IProcessedData[]) => {
+      // Slicing the route prefix and filtering trips by the selected routes
+      // const routesSliced = selectedRoutes.map(str => str.slice(1));
+      // Filter trips by selected routes. This is an initial filtration step to reduce the dataset.
+      const filteredTrips = data.filter(trip =>
+        selectedRoutes.includes(trip.route_short_name)
+      );
+      const enrichedTrips = filteredTrips.map(trip => ({
+        ...trip,
+        stops: trip.stops
+          .map(stop => ({
+            ...stop,
+            route_short_name: trip.route_short_name,
             trip_headsign: trip.trip_headsign,
-            route_id: trip.route_id,
-          };
-        })
-        .filter(
-          st =>
-            st.arrival_timestamp >= startSeconds &&
-            st.arrival_timestamp <= endSeconds
-        );
-      return { ...trip, stops: tripStoptimes };
-    });
-    // Filter out any trips that do not have any stop times within the selected time range.
-    return tripsWithStoptimes.filter(trip => trip.stops.length > 0);
+            originalArrivalTime: parseTime(stop.arrival_time)!,
+            originalDepartureTime: parseTime(stop.departure_time)!,
+            arrival_timestamp: timeStringToSeconds(stop.arrival_time),
+            departure_timestamp: timeStringToSeconds(stop.departure_time),
+          }))
+          .filter(
+            st =>
+              st.arrival_timestamp >= startSeconds &&
+              st.departure_timestamp <= endSeconds
+          ),
+      }));
+
+      // Further processing to map stop times to each trip, including sorting and filtering by time range.
+      // const tripsWithStoptimes = filteredTrips.map(trip => {
+      // Filter and sort the stop times for this trip, then map additional stop information.
+      // const tripStoptimes = stoptimes
+      //   .filter(st => st.trip_id === trip.trip_id)
+      //   .sort((a, b) => a.stop_sequence - b.stop_sequence)
+      // .map(st => {
+      //   const stopInfo = stopsById[st.stop_id];
+      //   return {
+      //     ...st,
+      //     ...stopInfo,
+      //     // Convert times into JavaScript Date objects for easier manipulation and formatting.
+      //     originalArrivalTime: d3.timeParse('%H:%M:%S')(st.arrival_time)!,
+      //     originalDepartureTime: d3.timeParse('%H:%M:%S')(st.departure_time)!,
+      //     arrival_timestamp: st.arrival_timestamp,
+      //     departure_timestamp: st.departure_timestamp,
+      //     trip_headsign: trip.trip_headsign,
+      //     route_id: trip.route_id,
+      //   };
+      // })
+      // .filter(
+      //   st =>
+      //     st.arrival_timestamp >= startSeconds &&
+      //     st.arrival_timestamp <= endSeconds
+      // );
+      // return { ...trip, stops: tripStoptimes };
+      // });
+      // Filter out any trips that do not have any stop times within the selected time range.
+      // const newData = tripsWithStoptimes.filter(trip => trip.stops.length > 0);
+      setProcessedData(enrichedTrips);
+      setLoading(false);
+    },
+    [selectedRoutes, timeRange]
+  );
+
+  const handleRouteChange = (event: SelectChangeEvent<string[]>) => {
+    // event.target.value could be string | string[] depending on the MUI Select component configuration
+    const value = event.target.value;
+
+    // Ensure that value is always treated as an array of strings
+    const newSelectedRoutes = typeof value === 'string' ? [value] : value;
+
+    // Prevent deselecting all options - there should be at least one selected route
+    if (newSelectedRoutes.length === 0) {
+      return;
+    }
+
+    setSelectedRoutes(newSelectedRoutes);
   };
 
   /**
@@ -149,30 +181,34 @@ const TrainScheduleChart: React.FC = () => {
 
   return (
     <Container maxWidth="lg">
-      <div style={OVERLAY_STYLES}>
-        <RoutesSelect
-          routes={routes}
-          selectedRoutes={selectedRoutes}
-          onChange={(event: SelectChangeEvent<string[]>) => {
-            const value = event.target.value;
-            // On autofill we get a stringified value.
-            setSelectedRoutes(
-              typeof value === 'string' ? value.split(',') : value
-            );
-          }}
-        />
-        <StationsCheckbox
-          checked={stations}
-          onChange={e => setStations(e.target.checked)}
-        />
-        <SliderControl
-          timeRange={timeRange}
-          setTimeRange={setTimeRange}
-          tempTimeRange={tempTimeRange}
-          setTempTimeRange={setTempTimeRange}
-        />
-      </div>
-      <Chart processedData={processedData} stationsVisible={stations} />
+      {!loading ? (
+        <>
+          <div style={OVERLAY_STYLES}>
+            <RoutesSelect
+              routes={routes}
+              selectedRoutes={selectedRoutes}
+              onChange={handleRouteChange}
+            />
+            <StationsCheckbox
+              checked={stations}
+              onChange={e => setStations(e.target.checked)}
+            />
+            <SliderControl
+              timeRange={timeRange}
+              setTimeRange={setTimeRange}
+              tempTimeRange={tempTimeRange}
+              setTempTimeRange={setTempTimeRange}
+            />
+          </div>
+          <Chart
+            processedData={processedData}
+            stationsVisible={stations}
+            selectedRoutes={selectedRoutes}
+          />
+        </>
+      ) : (
+        'Loading'
+      )}
     </Container>
   );
 };

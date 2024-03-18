@@ -12,6 +12,7 @@ import { Box } from '@mui/material';
 interface ChartProps {
   processedData: IProcessedData[] | null;
   stationsVisible: boolean;
+  selectedRoutes: string[];
 }
 
 /**
@@ -24,20 +25,23 @@ interface ChartProps {
 export const Chart: React.FC<ChartProps> = ({
   processedData,
   stationsVisible,
+  selectedRoutes,
 }) => {
+  console.log('processedDatainChart', processedData);
   // useRef hook to reference the SVG element where the chart will be drawn.
   const svgRef = useRef<SVGSVGElement>(null);
 
   //useEffect hook to redraw the chart whenever the processed data or the station visibility changes.
   useEffect(() => {
     if (!processedData) {
+      console.log('no Data in Chart');
       // Early return if there is no data to render.
       return;
     }
 
     // Invokes the chart drawing function.
     createChart();
-  }, [processedData, stationsVisible]);
+  }, [processedData, stationsVisible, selectedRoutes]);
 
   /**
    * Creates and renders the D3 chart using SVG.
@@ -277,7 +281,7 @@ export const Chart: React.FC<ChartProps> = ({
       .on('mouseout', () => tooltip.style('display', 'none'))
       .on('mouseover', (event, d) => {
         tooltip.style('display', null);
-        line1.text(`S ${d.route_id} nach ${d.trip_headsign}`);
+        line1.text(`${d.route_short_name} nach ${d.trip_headsign}`);
         line2.text(`${d.stop_name}`);
         line3.text(`Ankunft: ${formatTime(d.originalArrivalTime)}`);
         line4.text(`Abfahrt: ${formatTime(d.originalDepartureTime)}`);
