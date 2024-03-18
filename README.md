@@ -46,6 +46,6 @@ npm install
 # Run:
 npm run dev
 
-# Tests:
+# Run Test Suites:
 npm run test
 
