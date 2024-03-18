@@ -38,13 +38,6 @@ const TrainScheduleChart: React.FC = () => {
     timeRange
   );
 
-  /**
-   * Handles changes to the stations checkbox, toggling the visibility of stations on the chart.
-   * @param event The event object containing the new checkbox state.
-   */
-  const handleCheckbox = (event: React.ChangeEvent<HTMLInputElement>): void => {
-    setStations(event.target.checked);
-  };
 
   /**
    * Fetches GTFS (General Transit Feed Specification) data for processing and visualization.
