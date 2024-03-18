@@ -20,6 +20,7 @@ The Train Schedule Chart is an innovative web application designed for the compr
 - **Efficient Data Management with Drizzle ORM:** Utilizes Drizzle as an ORM tool for streamlined database interactions, facilitating smooth data retrieval and updates.
 - **Support for Postgres and Supabase in the Deployed Version:** Employs robust technologies for database management and backend services.
 - **Local Development Support with SQLite and Node GTFS:** Allows for easy setup and testing with direct data importation capabilities.
+- **Unit Tests:** Ensures the reliability and stability of components with unit tests using React Testing Library and Jest.
 
 ## Prerequisites
 
@@ -30,7 +31,7 @@ Before starting, ensure you have installed:
 
 ## Installation
 
-Warning: Only the Local Development Version on the 'nodegtfs' branch will run out of the box without a proper postgres setup.
+Warning: Only the local development version on the 'nodegtfs' branch will run out of the box without a proper postgres setup. The postgres version is more up-to-date and has unit tests for components.
 
 ```bash
 # Clone the repository:
@@ -44,4 +45,7 @@ npm install
 
 # Run:
 npm run dev
+
+# Tests:
+npm run test
 
