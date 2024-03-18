@@ -96,8 +96,6 @@ const TrainScheduleChart: React.FC = () => {
   const processData = useCallback(
     (data: IProcessedData[]) => {
       // Slicing the route prefix and filtering trips by the selected routes
-      // const routesSliced = selectedRoutes.map(str => str.slice(1));
-      // Filter trips by selected routes. This is an initial filtration step to reduce the dataset.
       const filteredTrips = data.filter(trip =>
         selectedRoutes.includes(trip.route_short_name)
       );
