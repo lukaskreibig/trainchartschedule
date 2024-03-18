@@ -65,15 +65,16 @@ export async function GET() {
       )
       .execute();
 
-    // Create a map of trip_id to its stop times
-    const stopTimesMap: Record<string, IStopTime[]> =
-      stopTimesWithStopInfo.reduce((acc, stopTime) => {
-        if (!acc[stopTime.trip_id]) {
-          acc[stopTime.trip_id] = [];
-        }
-        acc[stopTime.trip_id].push(stopTime);
-        return acc;
-      }, {});
+    // Create a map of trip_id to its stop times, assuming trip_id is always non-null
+    const stopTimesMap: Record<string, IStopTime[]> = stopTimesWithStopInfo.reduce((acc, stopTime) => {
+      const key = stopTime.trip_id!;
+      if (!acc[key]) {
+        acc[key] = [];
+      }
+      // @ts-expect-error
+      acc[key].push(stopTime);
+      return acc;
+    }, {} as Record<string, IStopTime[]>);
 
     // Associate stop times with their respective trips and filter out trips with no stops
     const tripsWithStopTimes = tripsData

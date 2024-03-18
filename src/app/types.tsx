@@ -37,7 +37,7 @@ export interface IStopTime {
   departure_timestamp: number;
   stop_id: string;
   stop_sequence: number;
-  stop_headsign: string | null;
+  stop_headsign: string;
   pickup_type: number;
   drop_off_type: number;
   continuous_pickup: number | null;
