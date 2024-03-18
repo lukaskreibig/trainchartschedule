@@ -4,6 +4,8 @@ import StationsCheckbox from './StationsCheckbox';
 import '@testing-library/jest-dom';
 
 describe('StationsCheckbox Component', () => {
+  
+  // Verifies that the checkbox renders with the initial checked state correctly
   test('renders correctly with initial checked state', () => {
     const handleChange = jest.fn();
     const checked = false;
@@ -13,6 +15,7 @@ describe('StationsCheckbox Component', () => {
     expect(checkbox).not.toBeChecked();
   });
 
+  // Ensures that the onChange handler is called when the checkbox is clicked
   test('calls onChange handler when clicked', () => {
     const handleChange = jest.fn();
     const checked = false;
@@ -20,10 +23,11 @@ describe('StationsCheckbox Component', () => {
 
     const checkbox = screen.getByRole('checkbox');
     fireEvent.click(checkbox);
-
+    
     expect(handleChange).toHaveBeenCalledTimes(1);
   });
 
+  // Checks if the checkbox reflects the new checked state after being clicked
   test('reflects the new checked state when clicked', () => {
     const Container = () => {
       const [isChecked, setIsChecked] = React.useState(false);
