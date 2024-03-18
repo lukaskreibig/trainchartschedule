@@ -2,23 +2,24 @@
 
 ## Overview
 
-The Train Schedule Chart is an advanced web application designed for comprehensive visualization of train schedules. It uniquely combines the strengths of Next.js for server-side rendering and SEO benefits, with React.js for building a dynamic user interface. Leveraging D3.js for sophisticated charting capabilities and employing Material-UI components for a modern and accessible user interface, the application caters to both technical and non-technical users alike. This project features a dual deployment approach: a primary version that integrates with Postgres and is hosted on Supabase with frontend blockchain interactions managed by Drizzle, alongside a local development version that uses SQLite and Node GTFS for direct data importation.
+The Train Schedule Chart is an innovative web application designed for the comprehensive visualization of train schedules. It combines the power of Next.js for server-side rendering and SEO enhancements with React.js for creating a dynamic user interface. The application uses D3.js for advanced charting capabilities and Material-UI for modern, accessible UI components. A distinctive feature of this project is its use of Drizzle as an ORM (Object-Relational Mapping) tool, facilitating efficient data management and interactions between the application's backend and its Postgres database hosted by Supabase.
 
 ## Versions
 
-- **Deployed Version:** Accessible at [trainchartschedule.vercel.app](https://trainchartschedule.vercel.app), this version stands as the most current iteration, featuring robust data management through Postgres and seamless backend services via Supabase. It further benefits from Drizzle for efficient frontend blockchain interactions, showcasing the full capabilities of the app in a live environment.
+- **Deployed Version:** Hosted at [trainchartschedule.vercel.app](https://trainchartschedule.vercel.app), this version integrates Postgres for database management, Supabase for backend services, and utilizes Drizzle for ORM, streamlining data interactions and management. It represents the most up-to-date iteration, offering an interactive and seamless user experience.
 
-- **Local Development Version:** Found on the 'nodegtfs' branch on GitHub, this version is designed for local development. It utilizes SQLite for database management and Node GTFS for straightforward local data importation. Although slightly older, with the caveat that S-Bahn stations are identified by their route_id rather than their actual S-Bahn number.
+- **Local Development Version:** Available on the 'nodegtfs' branch, this version is optimized for local development, using SQLite for database management and Node GTFS for direct local data importation. It's important to note that in this version, S-Bahn stations are labeled by their route_id instead of their actual S-Bahn number.
 
 ## Features
 
-- **Dynamic Train Schedule Visualization with D3.js:** Offers interactive, in-depth charting capabilities that transform raw data into engaging visual stories.
-- **Interactive Filter Controls for Selecting Apps and Time Ranges:** Enables users to refine what data they see based on their specific interests or requirements.
-- **Option to Show or Hide Stations:** Allows for a customized display, focusing attention on the most pertinent information.
-- **Responsive and Accessible UI with Material-UI Components:** Ensures that the app is usable across a wide range of devices and accessible to users with different needs.
-- **Next.js and React.js Integration:** Utilizes Next.js for enhanced server-side rendering and SEO optimization, paired with React.js for its efficient, component-based UI construction.
-- **Postgres, Supabase, and Drizzle Integration:** For the deployed version, ensuring robust data management and interactive capabilities through advanced technology stacks.
-- **Local Development Support with SQLite and Node GTFS:** Provides developers with the tools needed for local setup and direct data importation, facilitating ease of development and testing.
+- **Dynamic Train Schedule Visualization with D3.js:** Leverages interactive charting to present data in a compelling way.
+- **Interactive Filter Controls:** Enables users to select specific apps and time ranges, customizing the data display.
+- **Option to Show or Hide Stations:** Provides the ability to customize the display for clarity.
+- **Responsive and Accessible Design:** Ensures compatibility across a wide range of devices and accessibility needs with Material-UI components.
+- **Next.js and React.js for Frontend Development:** Uses Next.js for server-side rendering and React.js for its component-based UI, enhancing user experience and SEO.
+- **Efficient Data Management with Drizzle ORM:** Utilizes Drizzle as an ORM tool for streamlined database interactions, facilitating smooth data retrieval and updates.
+- **Support for Postgres and Supabase in the Deployed Version:** Employs robust technologies for database management and backend services.
+- **Local Development Support with SQLite and Node GTFS:** Allows for easy setup and testing with direct data importation capabilities.
 
 ## Prerequisites
 
