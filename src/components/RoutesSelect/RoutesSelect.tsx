@@ -46,6 +46,7 @@ const RoutesSelect: React.FC<RoutesSelectProps> = ({
             gap: 0.5,
             width: selectedRoutes.length >= 3 ? '300px' : '100px',
           }}
+          data-testid="selected-chips-box"
         >
           {selected.map(value => (
             <Chip key={value} label={value} />

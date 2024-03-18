@@ -1,7 +1,11 @@
 import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
-import { ID3Point, IProcessedData } from '@/app/types';
-import { CHART_HEIGHT, CHART_MARGINS, CHART_WIDTH } from '@/app/constants';
+import { ID3Point, IProcessedData } from '@/types/types';
+import {
+  CHART_HEIGHT,
+  CHART_MARGINS,
+  CHART_WIDTH,
+} from '@/app/constants/constants';
 import { Box } from '@mui/material';
 
 /**
@@ -311,7 +315,7 @@ export const Chart: React.FC<ChartProps> = ({
         alignItems: 'center',
       }}
     >
-      <svg ref={svgRef}></svg>
+      <svg ref={svgRef} data-testid="chart-svg"></svg>
     </Box>
   );
 };

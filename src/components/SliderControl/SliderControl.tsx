@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slider, Box } from '@mui/material';
-import { marks } from '../app/constants';
+import { marks } from '../../app/constants/constants';
 
 /**
  * Props for SliderControl component.

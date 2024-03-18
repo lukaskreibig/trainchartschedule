@@ -1,15 +1,15 @@
 'use client';
 import React, { useCallback, useEffect, useState } from 'react';
 import Container from '@mui/material/Container';
-import { type SelectChangeEvent } from '@mui/material';
-import { IProcessedData } from '@/app/types';
-import { routes } from './constants';
-import { OVERLAY_STYLES } from './constants';
-import SliderControl from '@/components/SliderControl';
-import StationsCheckbox from '@/components/StationsCheckbox';
-import RoutesSelect from '@/components/RoutesSelect';
-import Chart from '@/components/Chart';
+import { Box, type SelectChangeEvent } from '@mui/material';
+import { IProcessedData } from '@/types/types';
+import { routes } from './constants/constants';
+import { OVERLAY_STYLES } from './constants/constants';
+import SliderControl from '@/components/SliderControl/SliderControl';
+import RoutesSelect from '@/components/RoutesSelect/RoutesSelect';
+import Chart from '@/components/Chart/Chart';
 import * as d3 from 'd3';
+import StationsCheckbox from '@/components/StationsCheckbox/StationsCheckbox';
 
 /**
  * The TrainScheduleChart component displays a visual chart of train schedules.
@@ -149,7 +149,7 @@ const TrainScheduleChart: React.FC = () => {
     <Container maxWidth="lg">
       {!loading ? (
         <>
-          <div style={OVERLAY_STYLES}>
+          <Box style={OVERLAY_STYLES}>
             <RoutesSelect
               routes={routes}
               selectedRoutes={selectedRoutes}
@@ -165,7 +165,7 @@ const TrainScheduleChart: React.FC = () => {
               tempTimeRange={tempTimeRange}
               setTempTimeRange={setTempTimeRange}
             />
-          </div>
+          </Box>
           <Chart
             processedData={processedData}
             stationsVisible={stations}

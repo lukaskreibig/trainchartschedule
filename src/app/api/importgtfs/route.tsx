@@ -10,7 +10,7 @@ import {
   stopsTable,
   tripsTable,
 } from '../../../db/schema';
-import { IStopTime } from '@/app/types';
+import { IStopTime } from '@/types/types';
 
 /**
  * Connection string for the PostgreSQL database, derived from environment variables.
