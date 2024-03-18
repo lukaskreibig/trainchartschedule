@@ -65,8 +65,8 @@ const TrainScheduleChart: React.FC = () => {
       try {
         const response = await fetch('/api/importgtfs', { method: 'GET' });
         const data = await response.json();
-        setFetchData(data.tripsWithStopTimes); // Speichern der gefetchten Daten
-        processData(data.tripsWithStopTimes); // Direkte Verarbeitung der Daten
+        setFetchData(data.tripsWithStopTimes);
+        processData(data.tripsWithStopTimes);
       } catch (error) {
         console.error('Failed to load GTFS data:', error);
       } finally {
@@ -119,36 +119,6 @@ const TrainScheduleChart: React.FC = () => {
               st.departure_timestamp <= endSeconds
           ),
       }));
-
-      // Further processing to map stop times to each trip, including sorting and filtering by time range.
-      // const tripsWithStoptimes = filteredTrips.map(trip => {
-      // Filter and sort the stop times for this trip, then map additional stop information.
-      // const tripStoptimes = stoptimes
-      //   .filter(st => st.trip_id === trip.trip_id)
-      //   .sort((a, b) => a.stop_sequence - b.stop_sequence)
-      // .map(st => {
-      //   const stopInfo = stopsById[st.stop_id];
-      //   return {
-      //     ...st,
-      //     ...stopInfo,
-      //     // Convert times into JavaScript Date objects for easier manipulation and formatting.
-      //     originalArrivalTime: d3.timeParse('%H:%M:%S')(st.arrival_time)!,
-      //     originalDepartureTime: d3.timeParse('%H:%M:%S')(st.departure_time)!,
-      //     arrival_timestamp: st.arrival_timestamp,
-      //     departure_timestamp: st.departure_timestamp,
-      //     trip_headsign: trip.trip_headsign,
-      //     route_id: trip.route_id,
-      //   };
-      // })
-      // .filter(
-      //   st =>
-      //     st.arrival_timestamp >= startSeconds &&
-      //     st.arrival_timestamp <= endSeconds
-      // );
-      // return { ...trip, stops: tripStoptimes };
-      // });
-      // Filter out any trips that do not have any stop times within the selected time range.
-      // const newData = tripsWithStoptimes.filter(trip => trip.stops.length > 0);
       setProcessedData(enrichedTrips);
       setLoading(false);
     },
@@ -156,10 +126,9 @@ const TrainScheduleChart: React.FC = () => {
   );
 
   const handleRouteChange = (event: SelectChangeEvent<string[]>) => {
-    // event.target.value could be string | string[] depending on the MUI Select component configuration
+
     const value = event.target.value;
 
-    // Ensure that value is always treated as an array of strings
     const newSelectedRoutes = typeof value === 'string' ? [value] : value;
 
     // Prevent deselecting all options - there should be at least one selected route

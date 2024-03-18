@@ -27,14 +27,12 @@ export const Chart: React.FC<ChartProps> = ({
   stationsVisible,
   selectedRoutes,
 }) => {
-  console.log('processedDatainChart', processedData);
   // useRef hook to reference the SVG element where the chart will be drawn.
   const svgRef = useRef<SVGSVGElement>(null);
 
   //useEffect hook to redraw the chart whenever the processed data or the station visibility changes.
   useEffect(() => {
     if (!processedData) {
-      console.log('no Data in Chart');
       // Early return if there is no data to render.
       return;
     }
