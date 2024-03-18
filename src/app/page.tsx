@@ -126,7 +126,6 @@ const TrainScheduleChart: React.FC = () => {
   );
 
   const handleRouteChange = (event: SelectChangeEvent<string[]>) => {
-
     const value = event.target.value;
 
     const newSelectedRoutes = typeof value === 'string' ? [value] : value;
