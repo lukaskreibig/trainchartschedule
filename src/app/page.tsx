@@ -97,7 +97,11 @@ const TrainScheduleChart: React.FC = () => {
     (data: IProcessedData[]) => {
       // Slicing the route prefix and filtering trips by the selected routes
       const filteredTrips = data.filter(trip =>
-        selectedRoutes.includes(trip.route_short_name)
+        {
+          console.log("trip.route_short_name", trip.route_short_name)
+
+        return selectedRoutes.includes(trip.route_short_name)
+        }
       );
       const enrichedTrips = filteredTrips.map(trip => ({
         ...trip,
@@ -118,6 +122,7 @@ const TrainScheduleChart: React.FC = () => {
           ),
       }));
       setProcessedData(enrichedTrips);
+      console.log("enrichedTrips", enrichedTrips)
       setLoading(false);
     },
     [selectedRoutes, timeRange]

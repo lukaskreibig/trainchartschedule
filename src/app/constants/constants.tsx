@@ -13,7 +13,7 @@ export const MENU_PROPS = {
 
 // Constants for SVG dimensions
 export const CHART_MARGINS = { top: 100, right: 50, bottom: 50, left: 100 };
-export const CHART_WIDTH = 1280 - CHART_MARGINS.left - CHART_MARGINS.right;
+export const CHART_WIDTH = 1280;
 export const CHART_HEIGHT = 4000 - CHART_MARGINS.top - CHART_MARGINS.bottom;
 
 export const OVERLAY_STYLES: React.CSSProperties = {
@@ -35,7 +35,7 @@ export const OVERLAY_STYLES: React.CSSProperties = {
   width: '60%',
 };
 
-export const routes = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S7'];
+export const routes = ['S1', 'S2', 'S3', 'S4', 'S5', 'S6', 'S60', 'S11'];
 
 export const marks = [
   {
