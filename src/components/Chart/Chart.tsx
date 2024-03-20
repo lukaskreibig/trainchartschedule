@@ -174,12 +174,12 @@ export const Chart: React.FC<ChartProps> = ({
           // No need to filter the first point
           if (i === 0) return true;
           // Calculate the difference in the x-coordinate
-          const xDiff = Math.abs(xScale(d.stop_name) - xScale(data[i - 1].stop_name));
+          const xDiff = Math.abs(xScale(d.stop_name!)! - xScale(data[i - 1].stop_name!)!);
           // Check if the difference is less than half the width of the chart
           return xDiff < halfWidth;
         })
-        .x(d => xScale(d.stop_name) + xScale.bandwidth() / 2)
-        .y(d => yScale(d.time))
+        .x(d => xScale(d.stop_name!)! + xScale.bandwidth() / 2)
+        .y(d => yScale(d.time!))
         .curve(d3.curveLinear);
       
       processedData!.forEach(trip => {
