@@ -4,7 +4,6 @@ import StationsCheckbox from './StationsCheckbox';
 import '@testing-library/jest-dom';
 
 describe('StationsCheckbox Component', () => {
-  
   // Verifies that the checkbox renders with the initial checked state correctly
   test('renders correctly with initial checked state', () => {
     const handleChange = jest.fn();
@@ -23,7 +22,7 @@ describe('StationsCheckbox Component', () => {
 
     const checkbox = screen.getByRole('checkbox');
     fireEvent.click(checkbox);
-    
+
     expect(handleChange).toHaveBeenCalledTimes(1);
   });
 
