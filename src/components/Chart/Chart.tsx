@@ -158,39 +158,39 @@ export const Chart: React.FC<ChartProps> = ({
 
     svg.selectAll('.domain').remove();
 
-    
-
     // Plot each trip as a line through its stops. Color-coded by route_id for differentiation.
     const colorScale = d3
       .scaleOrdinal(d3.schemeCategory10)
       .domain(processedData!.map(d => d.route_id));
 
-      const halfWidth = width / 3; // Half of the chart width
+    const halfWidth = width / 3; // Half of the chart width
 
-      // Modify the line generator to include a simple filter
-      const lineGenerator = d3
-        .line<ID3Point>()
-        .defined((d, i, data) => {
-          // No need to filter the first point
-          if (i === 0) return true;
-          // Calculate the difference in the x-coordinate
-          const xDiff = Math.abs(xScale(d.stop_name!)! - xScale(data[i - 1].stop_name!)!);
-          // Check if the difference is less than half the width of the chart
-          return xDiff < halfWidth;
-        })
-        .x(d => xScale(d.stop_name!)! + xScale.bandwidth() / 2)
-        .y(d => yScale(d.time!))
-        .curve(d3.curveLinear);
-      
-      processedData!.forEach(trip => {
-        svg
-          .append('path')
-          .datum(trip.stops) // Pass the stops to the line generator
-          .attr('fill', 'none')
-          .attr('stroke', colorScale(trip.route_id))
-          .attr('stroke-width', 1)
-          .attr('d', lineGenerator); // This will use the .defined() check
-      });
+    // Modify the line generator to include a simple filter
+    const lineGenerator = d3
+      .line<ID3Point>()
+      .defined((d, i, data) => {
+        // No need to filter the first point
+        if (i === 0) return true;
+        // Calculate the difference in the x-coordinate
+        const xDiff = Math.abs(
+          xScale(d.stop_name!)! - xScale(data[i - 1].stop_name!)!
+        );
+        // Check if the difference is less than half the width of the chart
+        return xDiff < halfWidth;
+      })
+      .x(d => xScale(d.stop_name!)! + xScale.bandwidth() / 2)
+      .y(d => yScale(d.time!))
+      .curve(d3.curveLinear);
+
+    processedData!.forEach(trip => {
+      svg
+        .append('path')
+        .datum(trip.stops) // Pass the stops to the line generator
+        .attr('fill', 'none')
+        .attr('stroke', colorScale(trip.route_id))
+        .attr('stroke-width', 1)
+        .attr('d', lineGenerator); // This will use the .defined() check
+    });
 
     // Format function for time
     const formatTime = d3.timeFormat('%H:%M');
