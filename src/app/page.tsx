@@ -118,7 +118,6 @@ const TrainScheduleChart: React.FC = () => {
           ),
       }));
       setProcessedData(enrichedTrips);
-      console.log('enrichedTrips', enrichedTrips);
       setLoading(false);
     },
     [selectedRoutes, timeRange]
