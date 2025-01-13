@@ -1,7 +1,8 @@
 # Train Schedule Chart
 
-Note:
-This demo is experimental and serves as a proof of concept. While it effectively demonstrates the integration and functionality of the various technologies, the design and appearance are not the main focus yet. Enjoy exploring the functionality, and stay tuned for future improvements!
+> **Note:**  
+> This demo is experimental and serves as a proof of concept. While it effectively demonstrates the integration and functionality of the various technologies, the design and appearance are not
+> the main focus yet. Enjoy exploring the functionality, and stay tuned for future improvements!
 
 ## Overview
 
