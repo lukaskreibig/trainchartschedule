@@ -1,8 +1,11 @@
 # Train Schedule Chart
 
+Note:
+This demo is experimental and serves as a proof of concept. While it effectively demonstrates the integration and functionality of the various technologies, the design and appearance are not the main focus yet. Enjoy exploring the functionality, and stay tuned for future improvements!
+
 ## Overview
 
-The Train Schedule Chart is an innovative web application designed for the comprehensive visualization of train schedules. It combines the power of Next.js for server-side rendering and SEO enhancements with React.js for creating a dynamic user interface. The application uses D3.js for advanced charting capabilities and Material-UI for modern, accessible UI components. A distinctive feature of this project is its use of Drizzle as an ORM (Object-Relational Mapping) tool, facilitating efficient data management and interactions between the application's backend and its Postgres database hosted by Supabase.
+The Train Schedule Chart is an web application designed for the comprehensive visualization of train schedules. It combines the power of Next.js for server-side rendering and SEO enhancements with React.js for creating a dynamic user interface. The application uses D3.js for advanced charting capabilities and Material-UI for modern, accessible UI components. A distinctive feature of this project is its use of Drizzle as an ORM (Object-Relational Mapping) tool, facilitating efficient data management and interactions between the application's backend and its Postgres database hosted by Supabase.
 
 ## Versions
 
