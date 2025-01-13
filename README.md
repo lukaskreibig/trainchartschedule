@@ -10,7 +10,7 @@ The Train Schedule Chart is an web application designed for the comprehensive vi
 
 ## Versions
 
-- **Deployed Version:** Available on the 'main' branch and hosted at [https://trainchartschedule-lukaskreibig.vercel.app/]([https://trainchartschedule-lukaskreibig.vercel.app](https://trainchartschedule-lukaskreibig.vercel.app/)), this version integrates Postgres for database management, Supabase for backend services, and utilizes Drizzle for ORM, streamlining data interactions and management. It represents the most up-to-date iteration, offering an interactive and seamless user experience. Works only with proper GTFS Postgres database setup.
+- **Deployed Version:** Available on the 'main' branch and hosted at ([https://trainchartschedule-lukaskreibig.vercel.app](https://trainchartschedule-lukaskreibig.vercel.app/)), this version integrates Postgres for database management, Supabase for backend services, and utilizes Drizzle for ORM, streamlining data interactions and management. It represents the most up-to-date iteration, offering an interactive and seamless user experience. Works only with proper GTFS Postgres database setup.
 
 - **Local Development Version:** Available on the 'nodegtfs' branch, this version is optimized for local approach and works out of the box, using SQLite for database management and Node GTFS for direct local data importation. It's important to note that in this version, S-Bahn stations are labeled by their route_id instead of their actual S-Bahn number.
 
