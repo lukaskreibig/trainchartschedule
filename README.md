@@ -1,41 +1,58 @@
-# Train Schedule Chart
+# Train Graph / Bildfahrplan
 
 > **Note:**  
-> This demo is experimental and serves as a proof of concept. While it effectively demonstrates the integration and functionality of the various technologies, the design and appearance are not
-> the main focus yet. Enjoy exploring the functionality, and stay tuned for future improvements!
+> This demo is experimental and serves as a proof of concept. While it demonstrates the integration and functionality of various technologies, the design and appearance are still a work in progress. Enjoy exploring the functionality, and stay tuned for future improvements!
 
 ## Overview
 
-The Train Schedule Chart is an web application designed for the comprehensive visualization of complex train schedules. It combines the power of Next.js for server-side rendering and SEO enhancements with React.js for creating a dynamic user interface. The application uses D3.js for advanced charting capabilities and Material-UI for modern, accessible UI components. A distinctive feature of this project is its use of Drizzle as an ORM (Object-Relational Mapping) tool, facilitating efficient data management and interactions between the application's backend and its Postgres database hosted by Supabase.
+The Train Schedule Chart is a web application for visualizing complex train schedules—commonly known as **train graphs** (or *Bildfahrpläne* in German). These graphs visually represent how trains navigate through a network over time. For additional context, see the [Wikipedia article on Bildfahrplan](https://de.wikipedia.org/wiki/Bildfahrplan).
+
+Currently, the demo uses GTFS data from the S-Bahn in Stuttgart, but the approach is flexible and can be adapted to any GTFS dataset (e.g., long-distance trains or transit systems in other regions).
+
+The application leverages:
+- **Next.js** for server-side rendering and improved SEO
+- **React.js** for a dynamic, interactive user interface
+- **D3.js** for sophisticated, data-driven charting
+- **Material-UI** for modern, accessible UI components
+- **Drizzle ORM** for streamlined data management with a PostgreSQL database hosted by Supabase
+
+GTFS (General Transit Feed Specification) data is a standardized format comprising multiple CSV files (e.g., `agency.txt`, `stops.txt`, `routes.txt`, `trips.txt`, `stop_times.txt`) that describe public transit systems. This project imports GTFS data into a Postgres database, processes it, and visualizes the resulting schedule data through interactive charts.
 
 ## Versions
 
-- **Deployed Version:** Available on the 'main' branch and hosted at [https://trainchartschedule-lukaskreibig.vercel.app](https://trainchartschedule-lukaskreibig.vercel.app/), this version integrates Postgres for database management, Supabase for backend services, and utilizes Drizzle for ORM, streamlining data interactions and management. It represents the most up-to-date iteration, offering an interactive and seamless user experience. Works only with proper GTFS Postgres database setup.
+- **Deployed Version:**  
+  Available on the 'main' branch and hosted at [trainchartschedule-lukaskreibig.vercel.app](https://trainchartschedule-lukaskreibig.vercel.app/). This version uses Postgres (managed via Supabase) with Drizzle ORM, offering the most up-to-date and interactive experience. *(Note: Requires a properly configured GTFS Postgres database.)*
 
-- **Local Development Version:** Available on the 'nodegtfs' branch, this version is optimized for local approach and works out of the box, using SQLite for database management and Node GTFS for direct local data importation. It's important to note that in this version, S-Bahn stations are labeled by their route_id instead of their actual S-Bahn number.
+- **Local Development Version:**  
+  Available on the 'nodegtfs' branch, this version runs out of the box using SQLite and Node GTFS for local data import. In this version, S-Bahn stations are labeled by their route_id instead of their actual S-Bahn number.
 
 ## Features
 
-- **Dynamic Train Schedule Visualization with D3.js:** Leverages interactive charting to present data in a compelling way.
-- **Interactive Filter Controls:** Enables users to select specific apps and time ranges, customizing the data display.
-- **Option to Show or Hide Stations:** Provides the ability to customize the display for clarity.
-- **Responsive and Accessible Design:** Ensures compatibility across a wide range of devices and accessibility needs with Material-UI components.
-- **Next.js and React.js for Frontend Development:** Uses Next.js for server-side rendering and React.js for its component-based UI, enhancing user experience and SEO.
-- **Efficient Data Management with Drizzle ORM:** Utilizes Drizzle as an ORM tool for streamlined database interactions, facilitating smooth data retrieval and updates.
-- **Support for Postgres and Supabase in the Deployed Version:** Employs robust technologies for database management and backend services.
-- **Local Development Support with SQLite and Node GTFS:** Allows for easy setup and testing with direct data importation capabilities.
-- **Unit Tests:** Ensures the reliability and stability of components with unit tests using React Testing Library and Jest.
+- **Interactive Train Schedule Visualization:**  
+  Uses D3.js to render dynamic, interactive charts.
+- **Filter Controls:**  
+  Allows users to select specific routes and time ranges to customize the display.
+- **Toggle Station Labels:**  
+  Users can choose to show or hide station information for clarity.
+- **Modern Frontend Stack:**  
+  Combines Next.js and React.js for a performant, SEO-friendly user interface.
+- **Efficient Data Management:**  
+  Drizzle ORM streamlines interactions between the frontend and a PostgreSQL database on Supabase.
+- **Flexible GTFS Data Support:**  
+  Initially implemented with Stuttgart S-Bahn data, but adaptable to various transit datasets.
+- **Robust Testing:**  
+  Includes unit tests (using React Testing Library and Jest) to ensure component reliability.
 
 ## Prerequisites
 
-Before starting, ensure you have installed:
-
+Before getting started, ensure you have:
 - Node.js (latest stable version recommended)
-- npm (comes with Node.js)
+- npm (included with Node.js)
 
 ## Installation
 
-Warning: Only the local development version on the 'nodegtfs' branch will run out of the box without a proper postgres setup. The postgres version is more up-to-date and has unit tests for components.
+> **Warning:**  
+> Only the local development version on the 'nodegtfs' branch runs out of the box without a proper Postgres setup. The Postgres version is more current and includes comprehensive unit tests.
 
 ```bash
 # Clone the repository:
@@ -47,9 +64,8 @@ cd trainschedulechart
 # Install dependencies:
 npm install
 
-# Run:
+# Start the development server:
 npm run dev
 
-# Run Test Suites (postgres version only):
+# Run the test suites (Postgres version only):
 npm run test
-
